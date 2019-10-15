@@ -1,4 +1,3 @@
-// is jQuery allowed??
 function attachGradientEvents() {
     document.getElementById('gradient').addEventListener('mousemove', onGradientClick)
     function onGradientClick(e) {
