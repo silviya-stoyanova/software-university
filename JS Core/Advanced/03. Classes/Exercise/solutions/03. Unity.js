@@ -5,9 +5,6 @@ class Rat {
     }
 
     unite(newRat) {
-        // if (this instanceof Rat) {THIS IS WRONG}
-        // тук this сочи към плъха, на който е била извикана тази функция
-        // а не към новия плъх, който се подава
         if (newRat instanceof Rat) {
             this.unitedRats.push(newRat)
         }
@@ -32,22 +29,3 @@ let rat4 = "fake rat";
 
 rat2.unite(rat4);
 console.log(rat2.getRats());
-
-
-
-
-// let test = new Rat("Pesho");
-// console.log(test.toString()); //Pesho
-// 
-// console.log(test.getRats()); //[]
-// 
-// test.unite(new Rat("Gosho"));
-// test.unite(new Rat("Sasho"));
-// console.log(test.getRats());
-// //[ Rat { name: 'Gosho', unitedRats: [] },
-// //  Rat { name: 'Sasho', unitedRats: [] } ]
-// 
-// console.log(test.toString());
-// // Pesho
-// // ##Gosho
-// // ##Sasho
