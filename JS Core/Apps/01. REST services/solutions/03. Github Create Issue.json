@@ -1,7 +1,3 @@
-// to create a github account
-// and post it to https://api.github.com/repos/testnakov/test-nakov-repo/issues
-// using Postman
-
 {
     "title": "I have created an issue",
     "body": "Minor bug",
