@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1" id="customers">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>eve@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Nick</td>
+            <td>nick@yahooo.com</td>
+        </tr>
+        <tr>
+            <td>Didi</td>
+            <td>didi@didi.net</td>
+        </tr>
+        <tr>
+            <td>Tedy</td>
+            <td>tedy@tedy.com</td>
+        </tr>
+    </table>
+    Email: <input type="text" name="email" />
+    <button onclick="deleteByEmail()">Delete</button>
+    <div id="result"></div>
+    <script>
+        function deleteByEmail() {
+            let input = $('[name="email"]').val()
+            let found = false
+
+            // select all except ..  tr:not(:eq(0))
+            $('table tr:not(:eq(0))').text((index, value) => {
+                if (value.includes(input)) {
+                    // deleting multiple elements is a trouble
+
+                    console.log($('table tr').eq(index + 1).eq(0))
+                    $('table tr').eq(index + 1).remove()
+                    found = true
+                }
+            })
+
+            found ? $('#result').text('Deleted.') : $('#result').text('Not found.')
+        }
+    </script>
+</body>
+
+</html>

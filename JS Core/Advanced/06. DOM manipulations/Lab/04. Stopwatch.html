@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="time" style="border:3px solid blue; text-align:center; font-size:2em; margin-bottom:10px">00:00</div>
+    <button id="startBtn">Start</button>
+    <button id="stopBtn" disabled="true">Stop</button>
+    <script>
+        window.onload = function stopWatch() {
+            $('#startBtn').on('click', measureTime)
+            $('#stopBtn').on('click', clearTimer)
+            let interval
+
+            function measureTime() {
+                $('#time').text(`00:00`)
+                let judgeDiff = 1
+
+                interval = setInterval(() => {
+                    $('#startBtn').attr('disabled', true)
+                    $('#stopBtn').attr('disabled', false)
+
+                    let time = $('#time').text().split(':')
+                    let minutes = Number(time[0])
+                    let seconds = Number(time[1]) - judgeDiff
+                    judgeDiff = 0
+
+                    if (seconds < 58) {
+                        seconds++
+                        seconds < 10 ? seconds = '0' + seconds : seconds
+                    } else {
+                        minutes++
+                        seconds = '00'
+                    }
+                    minutes < 10 ? minutes = '0' + minutes : minutes
+                    $('#time').text(`${minutes}:${seconds}`)
+
+                }, 1000)
+            }
+
+            function clearTimer() {
+                clearInterval(interval)
+                $('#stopBtn').attr('disabled', true)
+                $('#startBtn').attr('disabled', false)
+            }
+        }
+    </script>
+
+</body>
+
+</html>
