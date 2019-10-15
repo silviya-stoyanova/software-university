@@ -1,4 +1,4 @@
-// function solve() { // for judge
+// function solve() { // when submitting on https://judge.softuni.bg/
 $('#btnLoad').click(onBtnLoad)
 $('#btnCreate').click(onBtnCreate)
 
@@ -46,4 +46,4 @@ function onBtnCreate() {
     $('#person').val('')
     $('#phone').val('')
 }
-// } // for judge
+// } //  https://judge.softuni.bg/
