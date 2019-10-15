@@ -25,10 +25,6 @@ function validate() {
         if (!$usernameElement.val().match(/^[A-Za-z0-9]{3,20}$/)) {
             $usernameElement.attr('style', 'border-color: red')
         } else {
-            // or 'border-color: none'  ?????
-            // or 'border-color: none'  ?????
-            // or 'border-color: none'  ?????
-            // or 'border-color: none'  ?????
             $usernameElement.attr('style', 'border: none')
         }
 
@@ -53,11 +49,6 @@ function validate() {
         }
 
         if ($companyElement[0].checked) {
-            // check for decimal numbers ?????????????
-            // check for decimal numbers ?????????????
-            // check for decimal numbers ?????????????
-            // check for decimal numbers ?????????????
-            // check for decimal numbers ?????????????
             if (Number($companyNumberElement.val()) < 1000 || Number($companyNumberElement.val()) > 9999) {
                 $companyNumberElement.attr('style', 'border-color: red')
             } else {
