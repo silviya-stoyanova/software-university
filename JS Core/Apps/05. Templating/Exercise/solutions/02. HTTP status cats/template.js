@@ -2,7 +2,7 @@ $(() => {
     renderCatTemplate();
 
     function renderCatTemplate() {
-        // TO DO: Render cat template and attach events
+        // Render cat template and attach events
         let html = $.get('./catTemplate.hbs')
         html.then(templateHTML => {
             let template = Handlebars.compile(templateHTML)
