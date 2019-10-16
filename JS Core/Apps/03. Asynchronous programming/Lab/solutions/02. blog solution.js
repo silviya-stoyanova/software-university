@@ -3,18 +3,16 @@ function attachEvents() {
     $('#btnViewPost').on('click', viewPost)
 }
 
-function loadPosts() {
-    // const kinveyUsername = "peter";
-    // const kinveyPassword = "p";
+function loadPosts() {    
     let id = 'kid_S1htVfcmm'
     let url = `https://baas.kinvey.com/appdata/${id}/posts`
     let base64auth = btoa('peter:p')
 
     $.ajax({
-        headers: { "Authorization": "Basic " + base64auth }, //! must be first !!!!!!
+        headers: { "Authorization": "Basic " + base64auth }, // must be first 
         method: 'GET',
         url
-    }).then(response => showPostOptions(response))  // () ??
+    }).then(response => showPostOptions(response))  
 }
 
 function showPostOptions(response) {
