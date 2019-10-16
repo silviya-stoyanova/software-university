@@ -14,7 +14,7 @@ function submitMessage() {
         url: `https://messagesz.firebaseio.com/.json`,
         data: newMessage
     })
-        .then(id => refreshMessages)       //////
+        .then(id => refreshMessages)     
 }
 
 function refreshMessages() {
@@ -28,7 +28,6 @@ function loadMessages(messages) {
     let allMessages = $('#messages').text()
 
     for (let id in messages) {
-        // to sort them by time??
         allMessages += `${messages[id].author}: ${messages[id].content}\n`
     }
     $('#messages').text(allMessages)
