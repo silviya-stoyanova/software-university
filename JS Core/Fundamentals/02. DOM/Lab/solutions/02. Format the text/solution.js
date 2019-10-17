@@ -1,5 +1,4 @@
 function solve() {
-  //TO DO
   let existingElements = document.getElementById('exercise')
   let currParagraphElement = document.getElementById('input')
   let currParagraph = currParagraphElement.innerText
