@@ -1,5 +1,4 @@
 function solve() {
-	//to do
 	let createTitleElement = document.getElementById('createTitle')
 	let createTitle = createTitleElement.value
 	let createContentElement = document.getElementById('createContent')
