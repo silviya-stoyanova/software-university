@@ -1,5 +1,4 @@
 function solve() {
-  //TO DO
   let exerciseElement = document.getElementById('exercise')
   let spanElements = exerciseElement.getElementsByTagName('span')
   let anchorElements = exerciseElement.getElementsByTagName('a')
