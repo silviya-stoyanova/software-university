@@ -1,5 +1,4 @@
 function solve() {
-   //TO DO
    let exerciseElement = document.getElementById('exercise').addEventListener('click', changeText)
 }
 
