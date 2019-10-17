@@ -1,5 +1,4 @@
 function register() {
-  //TO DO
   let usernameElement = document.getElementById('username')
   let emailElement = document.getElementById('email')
   let passwordElement = document.getElementById('password')
