@@ -1,5 +1,4 @@
 function solve() {
-  // TO DO
   let string = [...document.getElementById('string').value]
   let char = document.getElementById('character').value
   let couter = 0
