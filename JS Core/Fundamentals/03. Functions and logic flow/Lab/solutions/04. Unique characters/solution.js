@@ -1,5 +1,4 @@
 function solve() {
-  // TO DO
   let string = Array.from(document.getElementById('string').value)
   let uniqueChars = ''
   extractUniqueChars()
