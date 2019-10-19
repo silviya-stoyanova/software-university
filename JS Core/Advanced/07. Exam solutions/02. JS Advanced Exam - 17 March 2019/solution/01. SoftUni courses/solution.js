@@ -1,4 +1,4 @@
-// function solve() { // FOR JUDGE?
+// function solve() { // softuni judge
 $('button').on('click', onSignButtonClick)
 
 function onSignButtonClick() {
