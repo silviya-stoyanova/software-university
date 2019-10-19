@@ -110,18 +110,17 @@
 
     <script>
         function busRoute() {
-            // TODO: Write your code here
             let firstStop = Number($('input[name="first-stop"]').val())
             let lastStop = Number($('input[name="last-stop"]').val())
             let busStopsLi = $('#bus-stops li')
             let busStopsCount = busStopsLi.length
 
             if (firstStop > 0 && lastStop <= busStopsCount
-                && firstStop < lastStop) {   // firstStop && lastStop &&
+                && firstStop < lastStop) {   
                 $('#selected-bus-stops').empty()
 
                 let selectedRoute = $('#selected-route span')
-                selectedRoute.text(`${firstStop}–${lastStop}`)   // – or - ????
+                selectedRoute.text(`${firstStop}–${lastStop}`)
 
                 for (let i = firstStop; i <= lastStop; i++) {
                     let newBusStop = $('<li>')
