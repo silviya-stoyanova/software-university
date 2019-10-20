@@ -50,7 +50,7 @@ function joinCharacters() {
                }
             })
 
-         let armyNames = kingdomEl.find($('.armyOutput')).text() + ' ' + charName
+         let armyNames = kingdomEl.find($('.armyOutput')).text() + charName + ' '
          kingdomEl.find($('.armyOutput')).text(armyNames)
       }
    } else {
@@ -61,10 +61,51 @@ function joinCharacters() {
 }
 
 function attack() {
-let attackerKingdom = $('#actions inpuut')
+   let attackerKingdom = $('#actions input[placeholder="Attacker..."]').val().toUpperCase()
+   let attackerKing = $(`#${attackerKingdom.toLowerCase()} h2`).text()
+   let defenderKingdom = $('#actions input[placeholder="Defender..."]').val().toUpperCase()
+   // if both kingdoms are rebuilt
+   if ($(`#${attackerKingdom.toLowerCase()}`).children().length > 0 &&
+      $(`#${defenderKingdom.toLowerCase()}`).children().length > 0) {
+      let attackPoints = countPoints('attack', attackerKingdom)
+      let defensePoints = countPoints('defense', defenderKingdom)
 
-
+      if (attackPoints > defensePoints) {
+         $(`#${defenderKingdom.toLowerCase()} h2`).text(attackerKing)
+      }
+   } else {
+      $('#actions input[placeholder="Attacker..."]').val('')
+      $('#actions input[placeholder="Defender..."]').val('')
+   }
 }
 
+function countPoints(type, kingdom) {
+   let points = 0
+   let num = 0
+   $(`#${kingdom.toLowerCase()} fieldset p`)
+      .toArray()
+      .map(armyType => {
+         armyType = armyType.textContent.split(' - ')
 
+         if (type === 'attack') {
+            if (armyType[0] === 'TANKS') {
+               num = 20
+            } else if (armyType[0] === 'FIGHTERS') {
+               num = 50
+            } else if (armyType[0] === 'MAGES') {
+               num = 70
+            }
+         } else if (type === 'defense') {
+            if (armyType[0] === 'TANKS') {
+               num = 80
+            } else if (armyType[0] === 'FIGHTERS') {
+               num = 50
+            } else if (armyType[0] === 'MAGES') {
+               num = 30
+            }
+         }
+         points += num * armyType[1]
+      })
+   return points
+}
 // }
