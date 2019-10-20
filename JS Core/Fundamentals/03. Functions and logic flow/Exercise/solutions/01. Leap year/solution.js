@@ -1,5 +1,4 @@
 function leapYear() {
-    // TO DO:
     document.getElementsByTagName('button')[0]
         .addEventListener('click', checkYearType)
 
