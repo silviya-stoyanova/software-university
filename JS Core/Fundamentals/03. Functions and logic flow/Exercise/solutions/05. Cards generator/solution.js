@@ -1,5 +1,5 @@
 function solve() {
-    //TO DO...
+    //TO 
     document.getElementsByTagName('button')[0].addEventListener('click', showCards)
     let allCards = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
 
