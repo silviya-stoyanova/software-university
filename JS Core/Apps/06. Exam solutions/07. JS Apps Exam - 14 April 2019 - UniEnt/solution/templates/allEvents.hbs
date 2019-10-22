@@ -1,0 +1,12 @@
+<div id="eventsHolder">
+
+    {{#if events}}
+    {{#each events}}
+    {{>event}}
+    {{/each}}
+
+    {{else}}
+    {{>noEvents}}
+    {{/if}}
+
+</div>

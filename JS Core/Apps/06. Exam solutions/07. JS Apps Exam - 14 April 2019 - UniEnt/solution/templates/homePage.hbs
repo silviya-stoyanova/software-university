@@ -1,0 +1,11 @@
+{{>header}}
+
+<div>
+    {{#if loggedIn}}
+    {{>allEvents}}
+    {{else}}
+    {{>guest}}
+    {{/if}}
+</div>
+
+{{>footer}}
