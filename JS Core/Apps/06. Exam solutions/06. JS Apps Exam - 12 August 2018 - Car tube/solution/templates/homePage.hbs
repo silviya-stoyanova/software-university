@@ -1,0 +1,11 @@
+{{>header}}
+
+<div>
+    {{#if loggedIn}}
+    {{>allCars}}
+    {{else}}
+    {{>guest}}
+    {{/if}}
+</div>
+
+{{>footer}}
