@@ -1,0 +1,42 @@
+[
+    {
+        "id": "yz8fCyVsO",
+        "dateStamp": 1566982559233,
+        "privacy": "off",
+        "title": "my new meme",
+        "description": "plovediv",
+        "memeSrc": "./public/memeStorage/yz8fCyVsO.jpg"
+    },
+    {
+        "id": "kd7zfufTh",
+        "dateStamp": 1566982592369,
+        "privacy": "on",
+        "title": "studyy",
+        "description": "do your homework ♥",
+        "memeSrc": "./public/memeStorage/kd7zfufTh.jpg"
+    },
+    {
+        "id": "npd2v9ZDK",
+        "dateStamp": 1566982626980,
+        "privacy": "on",
+        "title": "challenge",
+        "description": "haha",
+        "memeSrc": "./public/memeStorage/npd2v9ZDK.jpg"
+    },
+    {
+        "id": "kPYi7dxtY",
+        "dateStamp": 1566982646983,
+        "privacy": "off",
+        "title": "yes bee, cheers! ☺",
+        "description": "hahahhhxa",
+        "memeSrc": "./public/memeStorage/kPYi7dxtY.jpg"
+    },
+    {
+        "id": "sc_vXdtQl",
+        "dateStamp": 1566986239855,
+        "privacy": "off",
+        "title": "wqwq",
+        "description": "",
+        "memeSrc": "./public/memeStorage/sc_vXdtQl.jpeg"
+    }
+]
