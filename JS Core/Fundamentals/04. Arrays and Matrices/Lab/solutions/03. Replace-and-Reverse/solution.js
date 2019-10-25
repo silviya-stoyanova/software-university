@@ -1,5 +1,4 @@
 function solve() {
-  // TODO
   let inputString = document.getElementById('arr').value
   let inputArray = JSON.parse(inputString)
 
