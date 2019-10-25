@@ -26,5 +26,4 @@ function solve() {
   }
 
   document.getElementById('result').textContent = output.join(' ')
-
 }
