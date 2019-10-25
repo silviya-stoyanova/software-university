@@ -1,5 +1,4 @@
 function solve() {
-  // TODO
   let string = document.getElementById('arr').value
   let array = JSON.parse(string)
   let replacedString = document.getElementById('str').value
