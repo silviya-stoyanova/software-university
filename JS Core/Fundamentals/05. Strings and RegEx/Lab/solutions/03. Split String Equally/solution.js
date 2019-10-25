@@ -1,5 +1,4 @@
 function solve() {
-  // TODO
   let string = document.getElementById('str').value
   let number = Number(document.getElementById('num').value)
   string = string.split('')
