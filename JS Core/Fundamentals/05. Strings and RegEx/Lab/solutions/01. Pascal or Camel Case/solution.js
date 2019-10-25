@@ -1,5 +1,4 @@
 function solve() {
-  // TODO
   let text = document.getElementById('str1').value
   let givenCase = document.getElementById('str2').value
 
