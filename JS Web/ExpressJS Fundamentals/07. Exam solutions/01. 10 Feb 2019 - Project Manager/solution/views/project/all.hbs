@@ -1,0 +1,55 @@
+{{#if isAdmin}}
+
+<h1>Projects</h1>
+<h3>Manage Teams</h3>
+<div class="form">
+    <form method="POST" action="/project/distribute">
+
+        <label>Team</label>
+        <select name="teamId">T
+            {{#each teams}}
+            <option value="{{this._id}}">{{this.name}}</option>
+            {{/each}}
+        </select>
+
+        <label>Project</label>
+        <select name="projectId">
+            {{#each adminProjects}}
+            <option value="{{this._id}}">{{this.name}}</option>
+            {{/each}}
+        </select>
+
+        <input type="submit" value="Distribute">
+    </form>
+</div>
+
+{{else}}
+
+<h1>Projects</h1>
+<form class="search">
+    <label>Seach: </label>
+    <input name="search" type="text">
+    <input type="submit" value="Search">
+</form>
+
+<div class="projects">
+
+    {{#each userProjects}}
+    <div class="project">
+        <h2>{{this.name}}</h2>
+
+        <h3>Team:
+            {{#if this.team}}
+            {{this.team.name}}
+            {{else}}
+            No Team assigned
+            {{/if }}
+        </h3>
+
+        <p>Description: {{this.description}}</p>
+    </div>
+    {{/each }}
+
+</div>
+
+{{/if}}
