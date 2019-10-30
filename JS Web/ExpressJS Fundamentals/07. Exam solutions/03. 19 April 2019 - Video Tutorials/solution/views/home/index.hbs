@@ -1,0 +1,102 @@
+{{#if user}}
+
+{{#if isAdmin}}
+<div class="row">
+    <div class="col text-center">
+        <a href="/course/create"><button type="button" class="btn btn-primary btn-lg">Create Course</button></a>
+    </div>
+</div>
+
+<div class="border border-light p-5">
+    <h1 class="text-center">Choose Course</h1>
+    <ul class="list-group">
+
+        {{#each courses}}
+        <li class="list-group-item">
+            {{title}}
+            <div class="float-right">
+                <div class="btn-group" role="group">
+                    <a href="/course/edit/{{_id}}">
+                        <button type="button" class="btn btn-warning">EditCourse</button>
+                    </a>
+                    <a href="/course/{{_id}}/lecture/create"><button type="button" class="btn btn-success">Add
+                            lectures</button></a>
+                </div>
+                Lectures in course
+                <span class="badge badge-primary badge-pill">{{lectures.length}}</span>
+            </div>
+        </li>
+        {{/each}}
+    </ul>
+</div>
+{{/if}}
+
+
+{{! if the user is logged in but is not the admin}}
+{{#unless isAdmin}}
+<h1 class="text-center">Courses</h1>
+<form class="search">
+    <label>Search: </label>
+    <input name="search" type="text">
+    <input type="submit" value="Search">
+</form>
+{{/unless}}
+
+
+{{! guest view }}
+{{else}}
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Video Tutorials</h1>
+        <p class="lead">Start Self-Study Today: It'll Change Your Life</p>
+    </div>
+</div>
+<h1 class="text-center">Top Courses</h1>
+{{/if}}
+
+
+{{! if the user is logged in but is not the admin}}
+{{#unless isAdmin}}
+<div class="container mt-3">
+    {{#if user}}
+    <div class="row">
+        <div class="card-deck d-flex justify-content-center">
+
+            {{else}}
+            <div class="row d-flex justify-content-center">
+                <div class="card-deck">
+                    {{/if}}
+
+                    {{#each courses}}
+                    {{#if ../user}}
+
+                    <div class="card mb-4">
+                        <img class="card-img-top" src="{{imageUrl}}" alt="Card image cap" width="400">
+                        <div class="card-body">
+                            <h4 class="card-title">{{title}}</h4>
+                            <p class="card-text">{{description}}</p>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="/course/details/{{_id}}"><button type="button"
+                                class="btn btn-info">Details</button></a>
+                    </div>
+
+                    {{else}}
+
+                    {{#if isPublic}}
+                    <div class="card mb-4">
+                        <img class="card-img-top" src="{{imageUrl}}" alt="Card image cap" width="400">
+                        <div class="card-body">
+                            <h4 class="card-title">{{title}}</h4>
+                            <p class="card-text">{{description}}</p>
+                        </div>
+                    </div>
+                    {{/if}}
+                    {{/if}}
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+        {{/unless}}
