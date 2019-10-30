@@ -1,0 +1,44 @@
+<div class="container">
+    <h1 class="my-4" name="{{title}}">Course title: {{title}}
+    </h1>
+
+    <div class="row">
+
+        <div class="col-md-8">
+            <img class="img-fluid" name="{{imageUrl}}" src="{{imageUrl}}" alt="Express" />
+        </div>
+
+        <div class="col-md-4 text-center">
+            <h3 class="my-3">Course Description</h3>
+            <p name="{{description}}">{{description}}</p>
+
+            {{#if isEnrolled}}
+            <span class="badge badge-pill badge-success">enrolled</span>
+            {{else}}
+
+            <form id="enroll-form" action="/course/enroll/{{_id}}" method="post"></form>
+            <a href="javascript:document.getElementById('enroll-form').submit()"><button type="button"
+                    class="btn btn-info">Enroll</button></a>
+            {{/if}}
+        </div>
+    </div>
+
+    {{#unless isEnrolled}}
+    <h4 class="text-center">To get full access please enroll the course</h4>
+    {{else}}
+
+    <h3 class="text-center">Lectures List</h3>
+
+    <ul class="list-group">
+
+        {{#each lectures}}
+        <li class="list-group-item">
+            <h5 class="mb-1">{{title}}</h5>
+            <span class="float-right">
+                <a href="/course/{{../_id}}/lecture/play/{{_id}}"><button class="btn btn-secondary">Play</button></a>
+            </span>
+        </li>
+        {{/each}}
+    </ul>
+    {{/unless}}
+</div>
