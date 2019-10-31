@@ -1,0 +1,43 @@
+{{#unless isAdmin}}
+<h1>Your orders</h1>
+{{else}}
+<h1>Manage orders</h1>
+{{/unless}}
+
+<div class="orders">
+
+    {{#if isAdmin}}
+    <form method="post" action="/order/edit">
+        {{/if}}
+
+        {{#if orders}}
+        {{#each orders}}
+        <div class="order">
+            <span class="order-time">{{date}}</span>
+            <span class="order-name">{{product.category}} doner, {{product.size}} cm</span>
+            <span class="order-status">
+                {{#if ../isAdmin}}
+                <select name="{{_id}}" selected="inTransit">
+                    <option {{statuses.isPending}} value="pending">Pending</option>
+                    <option {{statuses.isInProgress}} value="inProgress">In Progress</option>
+                    <option {{statuses.isInTransit}} value="inTransit">In Transit</option>
+                    <option {{statuses.isDelivered}} value="delivered">Delivered</option>
+                </select>
+
+                {{else}}
+                {{status}}
+                {{/if}}
+            </span>
+            <a href="/order/details/{{_id}}" class="button order-button">Details</a>
+        </div>
+        {{/each}}
+
+        {{#if isAdmin}}
+        <input type="submit" value="Save Changes" class="button" style="border:0">
+    </form>
+    {{/if}}
+
+    {{else}}
+    <div>No orders</div>
+    {{/if}}
+</div>
