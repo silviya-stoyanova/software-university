@@ -1,0 +1,90 @@
+* {
+  background: #4c5058
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #4a4f5a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  cursor: pointer;
+  margin: 15px;
+  color: lightblue;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label, h2{
+  color: rgb(141, 157, 163);
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: rgb(172, 172, 142)
+}
+
+.pokemon {
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-top: -4px;
+  color: rgb(172, 172, 142)
+}
+
+button[type=submit] {
+  width: 38%;
+  background-color: rgb(52, 118, 146);
+  color: rgb(175, 175, 127);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(60, 99, 114);
+}
+
+img{
+  width: 30%;
+  border-radius: 20%;
+  border: 8px double grey
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(38, 43, 41);
+  background: lightblue;
+}
