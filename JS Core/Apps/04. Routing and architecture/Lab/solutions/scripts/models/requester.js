@@ -29,7 +29,7 @@ let requester = (() => {
     // Function to return POST promise
     function post(module, endpoint, auth, data) {
         let req = makeRequest('POST', module, endpoint, auth);
-        req.data = data;    // try with 'body' ???????????????
+        req.data = data;   
         return $.ajax(req);
     }
 
