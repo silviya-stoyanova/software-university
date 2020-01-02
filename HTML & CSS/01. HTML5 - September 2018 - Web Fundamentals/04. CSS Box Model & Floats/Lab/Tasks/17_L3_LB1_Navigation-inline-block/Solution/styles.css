@@ -1,0 +1,66 @@
+html {
+    margin: 0 10em 1em 10em;
+    font: normal 16px/1.5 Verdana, sans-serif;
+    background-color: rgba(143, 140, 137, 0.247);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(68, 56, 38);
+    outline: none;                  /*new*/
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    border-radius: 10px;
+}
+
+ul li a {
+    padding: 0.1rem 0.3rem;
+    border-radius: 10px;
+    border: 2px solid rgb(218, 184, 134);
+    background-color: rgba(218, 184, 134, 0.514);
+    transition: background-color 1s ease;
+}
+
+ul li a:focus,
+ul li a:hover {
+    background-color: silver;
+}
+
+ul li, .site-logo {
+    font-size: 1.5rem;
+}
+
+ul, .site-logo {
+    float: left;
+}
+
+.site-logo {
+    margin: 0.7em 0;
+    transition: transform 2s ease;
+}
+
+/* .site-logo:focus, */
+.site-logo:hover {
+    transform: rotate(180deg);
+}
+
+header {
+    position: static;
+    border-top: 2px solid saddlebrown;
+    border-bottom: 2px solid saddlebrown;
+    border-radius: 10px;
+}
+
+header:after {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+}

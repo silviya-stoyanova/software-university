@@ -1,0 +1,40 @@
+html {
+    font: normal 16px/1.5 Helvetica, sans-serif;
+    background-color: rgb(223, 217, 217)
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.container > section {
+    position: relative;
+    overflow: hidden;
+    width: 5rem;
+    height: 20rem;
+    margin: 1em;
+    border-radius: 10px;
+    transition: width 0.7s ease;
+    background-color: rgba(0, 0, 0, 0.808);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.678);
+}
+
+.container > section > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.container > section:hover {
+    width: 30rem;
+}
