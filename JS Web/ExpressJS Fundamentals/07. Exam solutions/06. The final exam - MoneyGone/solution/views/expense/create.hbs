@@ -1,0 +1,56 @@
+<form action="/expense/create" method="POST">
+    <h1>Expense</h1>
+
+    <div class="form-control">
+        <label for="merchant">Merchant*</label>
+        <input name="merchant" value="{{merchant}}" id="merchant" type="text" placeholder="Shoes">
+    </div>
+
+    <div class="form-control">
+        <label for="total">Total*</label>
+        <input name="total" value="{{total}}" id="total" type="text" placeholder="123.00">
+        <select name="vault" id="vault">
+            <option value="bgn">BGN лв</option>
+        </select>
+    </div>
+
+    <div class="form-control">
+        <label for="category">Category*</label>
+        <select name="category" id="category">
+            <option disabled selected value="default">Select category...</option>
+            <option {{advertisingIsSelected}} value="advertising">Advertising</option>
+            <option {{benefitsIsSelected}} value="benefits">Benefits</option>
+            <option {{carIsSelected}} value="car">Car</option>
+            <option {{equipmentIsSelected}} value="equipment">Equipment</option>
+            <option {{feesIsSelected}} value="fees">Fees</option>
+            <option {{home-officeIsSelected}} value="home-office">Home Office</option>
+            <option {{insuranceIsSelected}} value="insurance">Insurance</option>
+            <option {{interestIsSelected}} value="interest">Interest</option>
+            <option {{LaborIsSelected}} value="Labor">Labor</option>
+            <option {{maintenanceIsSelected}} value="maintenance">Maintenance</option>
+            <option {{materialsIsSelected}} value="materials">Materials</option>
+            <option {{meals-and-entertainmentIsSelected}} value="meals-and-entertainment">Meals and Entertainment</option>
+            <option {{office-suppliesIsSelected}} value="office-supplies">Office Supplies</option>
+            <option {{otherIsSelected}} value="other">Other</option>
+            <option {{professional-servicesIsSelected}} value="professional-services">Professional Services</option>
+            <option {{rentIsSelected}} value="rent">Rent</option>
+            <option {{taxesIsSelected}} value="taxes">Taxes</option>
+            <option {{travelIsSelected}} value="travel">Travel</option>
+            <option {{utilitiesIsSelected}} value="utilities">Utilities</option>
+        </select>
+    </div>
+
+    <div class="form-control">
+        <label for="description">Description*</label>
+        <input name="description" value="{{description}}" id="description" type="text"
+            placeholder="Shoes description...">
+    </div>
+
+    <div class="form-control">
+        <label for="report">Report: </label>
+        <input name="report" {{isReportChecked}} type="checkbox" id="report" />
+    </div>
+
+    <button type="Submit">Save</button>
+
+</form>

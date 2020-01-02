@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../../css/site.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a id="home" class="left-floated" href="/">MoneyGone</a>
+                </li>
+            </ul>
+
+            <ul>
+                {{#unless user}}
+                <li>
+                    <a class="right-floated" href="/user/login">Login</a>
+                </li>
+                {{else}}
+                <li>
+                    <a class="right-floated" href="/user/profile">[{{user.username}} profile]</a>
+                </li>
+                <li>
+                    <a class="right-floated" href="/user/logout">Logout</a>
+                </li>
+                {{/unless}}
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {{#if error}}
+        <section class="notifications">
+            <p class="notification-message">{{error}}</p>
+        </section>
+        {{/if}}
+
+        {{{body}}}
+    </main>
+
+    <footer>
+        <!-- <a href="#home"> &uarr; Back to top &uarr;</a> -->
+        <img src="https://softuni.bg/Content/images/about-page/softuni.png" alt="">
+        <p>Software University - JavaScript Back-End September 2019 Season</p>
+        <p>@2019 MoneyGone. All Rights Reserved &copy;</p>
+    </footer>
+</body>
+
+</html>
