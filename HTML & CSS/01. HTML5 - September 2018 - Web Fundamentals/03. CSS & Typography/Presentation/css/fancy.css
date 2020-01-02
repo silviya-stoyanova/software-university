@@ -1,0 +1,203 @@
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic&subset=cyrillic-ext,latin,latin-ext,cyrillic);
+
+/**
+ * This theme is created by Konstantin Dankov
+ * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+.reveal .slides { text-align: left; }
+.reveal img, .reveal video, .reveal iframe { max-width: 100%; max-height: 70%; }
+
+.reveal h1 { font-size: 2.4em; font-weight: normal; }
+.reveal h2 { font-size: 2.2em; font-weight: normal; }
+.reveal h3 { font-size: 1.8em; font-weight: normal; }
+.reveal h4 { font-size: 1.4em; font-weight: normal; }
+.reveal h5 { font-size: 1.2em; font-weight: normal; }
+.reveal h6 { font-size: 1.0em; font-weight: normal; }
+
+.reveal pre code { padding: 10px; max-height: 500px; }
+.reveal pre, .reveal code { border-radius: 10px; width: auto; font-size: 0.9em; line-height: 1.4em; margin-bottom: 1em; }
+.reveal ol, .reveal ul { padding-bottom: 1em; padding-top: 0.4em; }
+.reveal ul li br + a:last-child { padding-bottom: 1em; }
+.reveal blockquote { width: auto; border: none; border-left: 0.5em solid #EEE; padding-left: 0.5em; }
+.reveal .codebigger code { font-size: 1.1em; line-height: 1.4em;   }
+.reveal .codesmaller code { font-size: 0.8em; line-height: 1.4em; }
+.reveal .codesmall code { font-size: 0.7em; line-height: 1.4em; }
+.reveal section .contact { font-size: 0.7em; border-top: 1px solid #CCC; margin-top: 2em; padding-top: 2em;   }
+.reveal ul, 
+.reveal ol { padding-left: 0;  }
+.reveal li { line-height: 1.4em; list-style: none outside; }
+.reveal li:before { display: inline-block; content: "\2022 \00A0" }
+.reveal section { height: 100%;  }
+.reveal .slides > section,
+.reveal .slides > section > section { padding: 0; overflow: hidden; }
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body { 
+
+/*background: #409e44; */
+
+	background: -webkit-linear-gradient(90deg, #fe8c00 10%, #f83600 90%); /* Chrome 10+, Saf5.1+ */
+	background:    -moz-linear-gradient(90deg, #fe8c00 10%, #f83600 90%); /* FF3.6+ */
+	background:     -ms-linear-gradient(90deg, #fe8c00 10%, #f83600 90%); /* IE10 */
+	background:      -o-linear-gradient(90deg, #fe8c00 10%, #f83600 90%); /* Opera 11.10+ */
+	background:         linear-gradient(90deg, #fe8c00 10%, #f83600 90%); /* W3C */
+
+/*background: -webkit-linear-gradient(90deg, #485563 10%, #29323c 90%); [> Chrome 10+, Saf5.1+ <]*/
+/*background:    -moz-linear-gradient(90deg, #485563 10%, #29323c 90%); [> FF3.6+ <]*/
+/*background:     -ms-linear-gradient(90deg, #485563 10%, #29323c 90%); [> IE10 <]*/
+/*background:      -o-linear-gradient(90deg, #485563 10%, #29323c 90%); [> Opera 11.10+ <]*/
+/*background:         linear-gradient(90deg, #485563 10%, #29323c 90%); [> W3C <]*/
+
+/*background: -webkit-linear-gradient(90deg, #649173 10%, #DBD5A4 90%); [> Chrome 10+, Saf5.1+ <]*/
+/*background:    -moz-linear-gradient(90deg, #649173 10%, #DBD5A4 90%); [> FF3.6+ <]*/
+/*background:     -ms-linear-gradient(90deg, #649173 10%, #DBD5A4 90%); [> IE10 <]*/
+/*background:      -o-linear-gradient(90deg, #649173 10%, #DBD5A4 90%); [> Opera 11.10+ <]*/
+/*background:         linear-gradient(90deg, #649173 10%, #DBD5A4 90%); [> W3C <]*/
+        
+
+}
+
+.reveal {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 32px;
+  color: #FFF; }
+
+::selection {
+  color: white;
+  background: rgba(0, 0, 0, 0.99);
+  text-shadow: none; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  line-height: 1em;
+  text-transform: none; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a:not(.image) {
+  color: #FFF;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  -ms-transition: color .15s ease;
+  -o-transition: color .15s ease;
+  transition: color .15s ease; }
+
+.reveal a:not(.image):hover {
+  color: #FFF;
+  text-decoration: underline;
+  border: none; }
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #204060; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img { margin: 15px 0px; }
+.reveal a:hover img { }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls div.navigate-left,
+.reveal .controls div.navigate-left.enabled { border-right-color: #336699; }
+
+.reveal .controls div.navigate-right,
+.reveal .controls div.navigate-right.enabled { border-left-color: #336699; }
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-up.enabled { border-bottom-color: #336699; }
+
+.reveal .controls div.navigate-down,
+.reveal .controls div.navigate-down.enabled { border-top-color: #336699; }
+
+.reveal .controls div.navigate-left.enabled:hover	{ border-right-color: #6699cc; }
+.reveal .controls div.navigate-right.enabled:hover	{ border-left-color: #6699cc; }
+.reveal .controls div.navigate-up.enabled:hover		{ border-bottom-color: #6699cc; }
+.reveal .controls div.navigate-down.enabled:hover	{ border-top-color: #6699cc; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress { background: rgba(0, 0, 0, 0.2); }
+
+.reveal .progress span {
+  background: #336699;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+.reveal td,
+.reveal li,
+.reveal p { text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.4); }
+.reveal .smaller { font-size: 0.8em;  }
+.reveal .big,
+.reveal .bigger { font-size: 1.1em;  }
+.reveal .verybig { display: block; font-size: 1.3em; line-height: 1.1; }
+.reveal .huge { display: block; font-size: 1.6em; line-height: 1.1; }
+
+.reveal .strike { text-decoration: line-through; color: #666; letter-spacing: -0.05em; }
+
+.reveal section .topright { position: absolute; right: 0; top: 0; text-align: right; }
+
+.reveal section img.topright { margin: 0; }
+.reveal section img.bottomright { margin: 0; width: auto;  }
+.reveal section img.screenshot { margin: 0 auto; display: block; max-width: 100%; max-height: 100%; height: auto; }
+
+.reveal section .bottomleft { position: absolute; left: 0; bottom: 0; width: 100%; }
+.reveal section .bottomright { position: absolute; right: 0; bottom: 0; width: 100%; text-align: right;  }
+.reveal section h4,
+.reveal section h3,
+.reveal section h2,
+.reveal section h1 { text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.6); }
+.reveal section h1 { font-size: 2em;  }
+
+.col { float: left; overflow: hidden; }
+
+.col.w2 { width: 50%; }
+.col.w3 { width: 33.3%; }
+.col.w4 { width: 25%; }
+
+.cleaner { clear: both; }
+
+.reveal .history { width: 90%; padding: 0 0 0 6px; margin: 0; }
+.reveal .history li { margin-bottom: 0.2em; font-size: 0.9em; list-style: none outside; border-left: 4px double #FFF; padding: 0.15em 0.4em;  }
+.reveal .history .date { display: block; font-size: 0.9em; line-height: 1;  }
+.reveal .history .version { display: block; }
+.reveal .history .theme { display: none; border-top: 1px solid #CCC; margin-top: 0.2em; padding-top: 0; font-size: 0.9em; }
+.reveal .slides section .fragment.highlight-green.visible { color: #FFF; background: #409E44;  }
+.reveal .slides section .fragment.highlight-green.visible .theme { display: block; }
+
+.reveal .center { text-align: center; vertical-align: middle; padding-top: 23%;  }
+.reveal .center h1 span { display: block;  }
+.reveal .center h1 span.line1 { font-weight: bold; font-size: 1.4em; line-height: 1; letter-spacing: 0.05em; text-transform: uppercase; }
+.reveal .center h1 span.line2 { letter-spacing: 0.08em; }
+.reveal .center h1 span.line3 { font-size: 1.05em; }
+.reveal .center h1 span.line4 { letter-spacing: -0.03em; }
+
+.reveal .themedemo .bottomright { padding: 0.5em 0.9em 0.0em 0.6em; }
+.reveal .themedemo .bottomleft { background: rgba(0,0,0,0.5); padding: 0.5em 0.5em 0.3em 0.6em;  }
+.reveal .themedemo .bottomleft h1 + p.verybig { margin-top: -0.5em; position: relative;  z-index: 1000;  }
+.reveal .alignright { float: right; clear: both; }
+.reveal .alignright + br { clear: both; }
+
+.reveal section img { margin: 0; }
+.reveal section .image-center img { display: block; margin: 0 auto; max-width: 100%; }
+
+.ta-center { text-align: center; }
+

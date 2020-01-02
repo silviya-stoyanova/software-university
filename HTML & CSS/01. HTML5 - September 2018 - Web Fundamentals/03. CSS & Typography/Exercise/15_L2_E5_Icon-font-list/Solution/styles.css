@@ -1,0 +1,22 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
+
+html {
+    font: normal 17px/1.5 Verdana, sans-serif;
+    background-color: rgba(192, 192, 192, 0.493);
+}
+
+ul li {
+    list-style: none;
+}
+
+main {
+    margin: 2em 2em;
+    border: 2px solid rgba(192, 192, 192, 0.35);
+    border-radius: 10px;
+    transition: background-color 1s ease ;
+}
+
+main:hover {
+    border: 2px solid rgb(223, 179, 175);
+    background-color: rgba(192, 192, 192, 0.493);
+}

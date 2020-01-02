@@ -1,0 +1,105 @@
+html {
+    font: normal 15px/1.5 Helvetica, sans-serif;
+    margin: 10px 100px;
+    background-color: rgb(204, 204, 200);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    display: inline-block;
+    margin-bottom: 0.2em;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid rgb(204, 204, 200);
+    border-radius: 8px;
+    transition: background-color 1s ease;
+}
+
+article:first-of-type {
+    border-top: 1px solid rgb(160, 159, 142);
+    border-bottom: 1px solid rgb(160, 159, 142);
+    padding: 1.5em 1px;
+    margin-top: 2.2em;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+    background-color:  rgb(122, 122, 116);
+    text-decoration: underline solid rgb(160, 159, 142);
+}
+
+ul li {
+    list-style-type: square;
+}
+
+ul ul li {
+    list-style-type: disc;
+}
+
+ul ul ul li {
+    list-style-type: circle;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+table, th, td {
+    border: 1px solid rgba(95, 105, 95, 0.74);
+    border-collapse: collapse;
+    text-align: left;
+}
+
+thead th {
+    background-color: rgba(95, 105, 95, 0.74);
+    border-color: transparent;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgba(95, 105, 95, 0.192);
+}
+
+tbody tr:hover td {
+    color: rgb(204, 204, 200);
+    background-color: rgb(59, 65, 60);
+    border-color: transparent;
+}
+
+blockquote {
+    border-left: 2px solid lightslategray;
+    padding: 0.1em 2em;
+    font-style: italic;
+    width: 65%;
+    position: relative;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+blockquote p:last-child {
+    text-align: right;
+}
+
+blockquote p span {
+    font-size: 3em;
+    vertical-align: sub;
+}
+
+.author {
+    display: block;
+    text-align: right;
+}
+
+/* blockquote:before {
+    content: '“';
+    font-size: 3em;
+    position: absolute;
+    left: 1vw;
+}
+
+blockquote:after {
+    content: '„';
+    font-size: 3em;
+    position: absolute;
+    top: 11vh;
+    left: 14vw;
+} */

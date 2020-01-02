@@ -1,0 +1,15 @@
+html {
+    font: normal 15px/1.5 Helvetica, sans-serif;
+    margin: 10px 100px;
+}
+
+main {
+    color: wheat;
+    background-color: rgb(49, 94, 121);
+    border-radius: 1rem;
+    padding: 1rem 3rem;
+}
+
+h1 {
+    font-family: 'Georia', serif;
+}

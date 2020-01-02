@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext");
+
+html {
+    font: normal 16px/1.5 PT Sans, sans-serif;
+    /* font: normal 16px/1.5 Caveat, sans-serif; */
+    margin: 10px 100px;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+ul ul li {
+    list-style-type: disc;
+}
+
+ul ul ul li {
+    list-style-type: circle;
+}
