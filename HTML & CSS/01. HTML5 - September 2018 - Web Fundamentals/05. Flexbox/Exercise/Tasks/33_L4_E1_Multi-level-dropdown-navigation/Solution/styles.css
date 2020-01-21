@@ -1,0 +1,97 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    margin: 0;
+    font: normal 16px/1.6 Verdana, sans-serif;
+    color: rgb(61, 58, 58);
+    background-color: rgb(243, 240, 233);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(61, 58, 58);
+}
+
+header h1 {
+    text-transform: uppercase;
+    margin-left: 1rem;
+}
+
+nav {
+    display: flex;
+    flex: 1 1 10rem;
+    align-items: center;
+    color: rgb(243, 240, 233);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+
+    padding: 0.5rem;
+    margin: 0.2rem;
+    border-radius: 10px;
+    background-color: rgb(61, 58, 58);
+}
+
+ul li:hover {
+    cursor: pointer;
+    background-color: rgb(121, 95, 151);
+}
+
+ul.nest-level-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex: 1 1 20%;
+    margin: 1rem 2rem;
+}
+
+ul li a {
+    color: inherit;
+}
+
+ul.nest-level-2, ul.nest-level-3-1, ul.nest-level-3-2, ul.nest-level-3-3 {
+    display: none;
+    position: absolute;
+    min-width: 7rem;
+    /* visibility: hidden; */
+}
+
+ul.nest-level-2 li, ul.nest-level-3-1 li, ul.nest-level-3-2 li, ul.nest-level-3-3 li {
+    /* background-color: rgb(102, 100, 100); */
+    color: white;
+}
+
+.nest-level-1 {
+    float: right;
+    overflow: hidden;
+}
+
+li.products:hover .nest-level-2,
+li.men:hover .nest-level-3-1,
+li.women:hover .nest-level-3-2,
+li.kids:hover .nest-level-3-3 {
+    display: block;
+}
+
+main {
+    margin: 1rem;
+}
+
+footer {
+    margin-top: auto;
+    align-self: center;
+}

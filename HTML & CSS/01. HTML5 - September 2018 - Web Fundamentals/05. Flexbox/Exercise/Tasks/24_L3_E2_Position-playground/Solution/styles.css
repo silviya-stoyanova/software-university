@@ -16,23 +16,26 @@ main {
 div.viewport {
     display: flex;
     justify-content: center;
-    width: 100vw;
+    align-items: center;
     height: 50vh;
+    /* width: 100vw; */
 }
 
 section.card {
+    flex: 0 0 10rem;
+    display: flex;
     position: relative;
+    width: 30%;
+
     /* overflow: hidden; */
     /* text-align: center; */
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
 img {
     /* flex: 1 1 1rem; */
-    width: 30%;
+    width: 100%;
     height: auto;
     border-radius: 7px;
 }
@@ -48,7 +51,7 @@ img {
 .fas {
     position: absolute;
     bottom: 1rem;
-    right: 2rem;
+    right: 1rem;
     color: honeydew;
     transition: font-size 0.3s ease;
 }

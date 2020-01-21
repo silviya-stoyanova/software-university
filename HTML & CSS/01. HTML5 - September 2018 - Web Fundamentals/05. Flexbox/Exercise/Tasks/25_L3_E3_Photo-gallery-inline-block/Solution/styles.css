@@ -1,0 +1,28 @@
+body {
+    margin: 2rem 20vw;
+    background-color: rgb(238, 237, 237);
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+ul.gallery li {
+    flex: 0 1 30%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color: white;
+    border: 3px solid black;
+}

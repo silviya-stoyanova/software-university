@@ -1,0 +1,50 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
+
+body {
+    font: normal 20px/1.6px Georgia, serif;
+    background-color: rgb(218, 212, 218);
+    margin: 2rem 2rem
+}
+
+section {
+    padding-bottom: 1rem;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 7px;
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+.normal-btn {
+    background-color: rgb(218, 212, 218);
+}
+
+.normal-btn:hover, .normal-btn:focus {
+    background-color: rgba(223, 238, 222, 0.301);
+    color: rgb(0, 105, 0);
+}
+
+.filled-btn:hover, .filled-btn:focus,
+.icon-btn:hover, .icon-btn:focus {
+    background-color: rgb(0, 105, 0);
+}
+
+.filled-btn, .icon-btn {
+    color: rgb(218, 212, 218);
+    background-color: rgba(35, 41, 24, 0.788);
+}
