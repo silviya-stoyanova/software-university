@@ -13,26 +13,23 @@ ul {
     padding: 0;
     margin: 0;
     align-items: center;
-
 }
 
 ul li {
     display: flex;
     align-items: center;
-
+    
     flex: 0 1 30%;
+    height: 40vw;
     padding: 2%;
-    box-sizing: border-box;
     margin: 1rem 0;
+    box-sizing: border-box;
     list-style: none;
     border: 4px solid black;
     box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.603);
-
-    height: 40vw;
 }
 
 img {
-    /* flex: 1 1 100%; */
     width: 100%;
     height: auto;
 }
