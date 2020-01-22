@@ -1,0 +1,87 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
+
+html {
+    font: normal 16px/1.6 Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+section {
+    flex: 0 1 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position: relative;
+}
+
+header {
+    position: absolute;
+    top: -1rem;
+    border: 1px solid rgb(119, 116, 116);
+    border-radius: 5px;
+    padding: 0.3rem 5rem 0.3rem 0.7rem;
+    background-color: rgb(247, 245, 241);
+    box-shadow: 1px 1px 20px 0px rgb(216, 211, 203);
+}
+
+form {
+    border: 1px solid rgb(119, 116, 116);
+    border-radius: 5px;
+    padding: 2rem 6rem 2rem 2rem;
+    background-color: rgb(247, 245, 241);
+    box-shadow: 1px 1px 20px 0px rgb(216, 211, 203);
+}
+
+label {
+    position: relative;
+    font-weight: bold;
+    /* margin-bottom: 200px; */
+}
+
+input#username, input#password {
+    border: 1px solid rgb(177, 176, 176);
+    border-radius: 5px;
+    width: 100%;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+}
+
+input#username:focus, input#password:focus {
+    border-color: green;
+    outline: none;
+}
+
+input#username:focus + .fas, input#password:focus + .fas{
+    color: green;
+}
+
+.fas {
+    position: absolute;
+    top: 1.8rem;
+    left: 0.6rem;
+}
+
+.submit-btn {
+    font-family: inherit;
+    font-size: inherit;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 1rem;
+    border: 1px solid rgb(177, 176, 176);
+    cursor: pointer;
+    padding: 0.5rem 0.8rem;
+}
+
+.submit-btn:hover, .submit-btn:focus {
+    border-color: green;
+    color: green;
+}
+
+.submit-btn:active {
+    background-color: rgba(184, 212, 184, 0.521);
+}

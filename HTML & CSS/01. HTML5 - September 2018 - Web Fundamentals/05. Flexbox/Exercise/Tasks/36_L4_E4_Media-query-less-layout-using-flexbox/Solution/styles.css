@@ -1,0 +1,40 @@
+html {
+    font: normal 16px/1.6 Helvetica, sans-serif;
+    background-color: rgb(252, 249, 245);
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+header, main, aside, footer {
+    padding: 1rem;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgb(102, 98, 98);
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+header {
+    flex: 1 1 100vw;
+    height: 7rem;
+}
+
+main {
+    flex: 0 1 60vw;
+    height: 20rem;
+}
+
+aside {
+    flex: 0 1 30vw;
+    height: 20rem;
+}
+
+footer {
+    flex: 1 1 100vw;
+    height: 4rem;
+}
