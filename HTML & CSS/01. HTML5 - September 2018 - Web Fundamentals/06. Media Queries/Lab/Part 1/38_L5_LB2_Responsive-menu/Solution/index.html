@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Responsive Menu</title>
+</head>
+
+<body>
+    <header>
+        <h1>Site title</h1>
+        <nav>
+            <label for="menu" class="toggle-nav">
+                <span><i class="fas fa-bars"></i></span>
+                Menu
+            </label>
+            <input id="menu" type="checkbox" class="toggle-nav-input">
+
+            <ul class="nest-level-1">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="products">
+                    <a href="#">Products</a>
+                    <i class="fa fa-caret-down"></i>
+
+                    <ul class="nest-level-2">
+                        <li class="men">
+                            <a href="#">Men</a>
+                            <i class="fa fa-caret-down"></i>
+
+                            <ul class="nest-level-3-1">
+                                <li><a href="#">Large</a></li>
+                                <li><a href="#">X-Large</a></li>
+                                <li><a href="#">Huge</a></li>
+                            </ul>
+                        </li>
+                        <li class="women">
+                            <a href="#">Women</a>
+                            <i class="fa fa-caret-down"></i>
+
+                            <ul class="nest-level-3-2">
+                                <li><a href="#">Large</a></li>
+                                <li><a href="#">X-Large</a></li>
+                                <li><a href="#">Huge</a></li>
+                            </ul>
+                        </li>
+                        <li class="kids">
+                            <a href="#">Kids</a>
+                            <i class="fa fa-caret-down"></i>
+
+                            <ul class="nest-level-3-3">
+                                <li><a href="#">Large</a></li>
+                                <li><a href="#">X-Large</a></li>
+                                <li><a href="#">Huge</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li> <a href="#">Stuff</a> </li>
+                <li> <a href="#">Contacts</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        some text
+    </main>
+
+    <footer>&copy; awesome footer 2000-2020</footer>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+html {
+    margin: 1rem 1rem;
+    font: normal 12px/1.5 Verdana, sans-serif;
+    background-color:  rgb(224, 216, 216);
+}
+
+h1, h2 {
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+article {
+    padding-top: 0.5em;
+}
+
+.site-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(161, 155, 155);
+}
+
+.has-floated-children:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+img[class^="align"] {
+    max-width: 50vw;
+    height: auto;
+    padding: 0.7em;
+    border: 3px solid black;
+    background-color: rgba(255, 255, 255, 0.705);
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.336);
+}
+
+blockquote {
+    box-sizing: border-box;
+    padding-left: 1.5em;
+    padding-bottom: 1.5em;
+    margin: 1em 1em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.7);
+    border-left: 2px solid rgb(161, 155, 155);
+}
+
+@media screen and (min-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+
+    blockquote {
+        float: right;
+        width: 50%;
+    }
+
+    .left-al-text {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    html {
+        font-size: 16px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .align-right {
+        float: right;
+        margin: 1em 0em 1em 2em;
+    }
+
+    .align-left {
+        float: left;
+        margin: 1em 2em 1em 0;
+    }
+
+    img[class^="align"] {
+        max-width: 35vw;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 18px;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    img[class^="align"] {
+        max-width: 20vw;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    html {
+        font-size: 21px;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    html {
+        font-size: 23px;
+        margin-left: 13rem;
+        margin-right: 13rem;
+    }
+}
