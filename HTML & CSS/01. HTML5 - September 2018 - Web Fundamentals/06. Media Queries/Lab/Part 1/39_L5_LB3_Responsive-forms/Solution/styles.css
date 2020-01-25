@@ -7,6 +7,7 @@ html {
 body {
     display: flex;
     justify-content: center;
+    margin: 4rem auto;
 }
 
 section {
@@ -15,6 +16,7 @@ section {
 }
 
 fieldset {
+    position: relative;
     padding: 2rem 1rem;
     border: 2px solid rgb(141, 135, 135);
     border-radius: 3px;
@@ -24,6 +26,10 @@ fieldset {
 }
 
 legend {
+    position: absolute;
+    top: -1.3rem;
+    left: -0.1rem;
+
     padding: 0.5rem 5rem 0.5rem 1rem;
     border: 2px solid rgb(141, 135, 135);
     border-radius: 3px;
@@ -80,13 +86,27 @@ input:focus + .fas {
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
     html {
         font-size: 16px;
     }
 
+    section {
+        display: block;
+    }
 
+    .flex-el {
+        display: flex;
+        justify-content: center;
+    }
 
+    label {
+        padding-right: 1em;
+        width: auto;
+    }
 
+    .input-holder {
+        width: 70%;
+    }
 
 }
