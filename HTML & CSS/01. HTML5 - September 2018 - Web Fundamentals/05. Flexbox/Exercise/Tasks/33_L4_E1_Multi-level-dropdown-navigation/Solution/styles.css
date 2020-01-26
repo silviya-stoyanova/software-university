@@ -13,7 +13,6 @@ body {
 
 header {
     display: flex;
-    /* flex-wrap: wrap; */
     border-bottom: 1px solid rgb(61, 58, 58);
 }
 
@@ -55,7 +54,6 @@ ul li:hover {
 
 ul.nest-level-1 {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: flex-end;
     flex: 1 1 20%;
     margin: 1rem 2rem;
@@ -66,34 +64,36 @@ ul li a {
 }
 
 ul.nest-level-2, ul.nest-level-3-1, ul.nest-level-3-2, ul.nest-level-3-3 {
-    /* visibility: hidden; */
-    display: none;
+    /* display: none; */
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.2s ease opacity;
+
     position: absolute;
     min-width: 5rem;
 }
 
 ul.nest-level-2 {
-    right: 5.5rem;
-    top: 3.5rem;
+    right: 5.8rem;
+    top: 4.3rem;
 }
 
 ul.nest-level-3-1 {
-    right: 5rem;
-    top: 0.6rem;
+    right: 6rem;
+    top: 0.9rem;
 }
 
 ul.nest-level-3-2 {
-    right: 5rem;
-    top: 3.1rem;
+    right: 6rem;
+    top: 3.5rem;
 }
 
 ul.nest-level-3-3 {
-    right: 5rem;
-    top: 5.5rem;
+    right: 6rem;
+    top: 6.2rem;
 }
 
 ul.nest-level-2 li, ul.nest-level-3-1 li, ul.nest-level-3-2 li, ul.nest-level-3-3 li {
-    /* background-color: rgb(102, 100, 100); */
     color: white;
 }
 
@@ -101,7 +101,9 @@ li.products:hover .nest-level-2,
 li.men:hover .nest-level-3-1,
 li.women:hover .nest-level-3-2,
 li.kids:hover .nest-level-3-3 {
-    display: block;
+    /* display: block; */
+    opacity: 1;
+    pointer-events: inherit;
 }
 
 main {

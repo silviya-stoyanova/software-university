@@ -1,3 +1,3 @@
 Progress:
-01. HTML5 / 05. Flexbox
+01. HTML5 / 06. Media Queries
 02. CSS Advanced / ..soon
