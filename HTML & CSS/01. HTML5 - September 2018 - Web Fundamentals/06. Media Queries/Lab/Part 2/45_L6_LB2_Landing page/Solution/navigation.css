@@ -1,0 +1,28 @@
+input#toggle-menu {
+    display: none;
+}
+
+nav {
+    /* display: block; */
+}
+
+ul.menu {
+    display: none;
+}
+
+.fa-times {
+    display: none;
+}
+
+input#toggle-menu:checked + nav .fa-bars {
+    display: none;
+}
+
+input#toggle-menu:checked + nav .fa-times {
+    display: inline;
+}
+
+input#toggle-menu:checked + nav ul.menu {
+    display: block;
+}
+

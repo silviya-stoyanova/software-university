@@ -3,13 +3,12 @@ html {
 }
 
 body {
-    background-color: rgb(253, 249, 249);
+    background-color: rgb(252, 243, 243);
+    padding: 2rem;
 }
 
-article {
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
+table, tbody, tr, td {
+    display: block;
 }
 
 table {
@@ -17,6 +16,70 @@ table {
     border-collapse: collapse;
 }
 
-table td {
-    border-bottom: 1px solid black;
+thead {
+    display: none;
+}
+
+tr {
+    border: 1px solid rgb(204, 200, 200);
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+td {
+    padding: 0.5rem;
+}
+
+td:before {
+    content: attr(data-head);
+    padding-right: 1rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 750px) {
+    td:not(:last-child) {
+        border-bottom: 1px solid rgb(204, 200, 200);
+    }
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 16px;
+    }
+
+    table {
+        display: table;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    thead tr {
+        font-weight: bold;
+        color: white;
+        background-color: rgb(54, 48, 48);
+    }
+
+    tbody {
+       display: table-row-group;
+    }
+
+    tr {
+        display: table-row;
+    }
+
+    td {
+        display: table-cell;
+    }
+
+    td:not(:last-child) {
+        border-right: 1px solid rgb(204, 200, 200);
+    }
+
+    td:before {
+        display: none;
+    }
 }
