@@ -3,15 +3,22 @@ input#toggle-menu {
 }
 
 nav {
-    /* display: block; */
+    flex: 1 1 auto;
 }
 
 ul.menu {
+    display: flex;
     display: none;
 }
 
 .fa-times {
     display: none;
+}
+
+label[for="toggle-menu"] {
+    flex: 1 0 60vw;
+    cursor: pointer;
+    /* align-self: flex-end; */
 }
 
 input#toggle-menu:checked + nav .fa-bars {
@@ -25,4 +32,3 @@ input#toggle-menu:checked + nav .fa-times {
 input#toggle-menu:checked + nav ul.menu {
     display: block;
 }
-

@@ -1,12 +1,143 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
 @import url("./reset.css");
 @import url("./typography.css");
-@import url("./navigation.css");
+@import url("./nav.css");
+@import url("./media-queries.css");
 
-header {
+.site-header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+section {
+    padding-top: 2rem;
+}
+
+.need-website {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.need-website h2 {
+    /* padding: 0.7rem 0 2rem; */
+}
+
+.need-website p {
+    padding: 2rem 0;
+}
+
+
+.fa-globe-americas {
+    font-size: 10rem;
+    padding: 3rem;
+}
+
+
+
+
+.team,
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.team ul,
+.testimonials ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team ul li,
+.testimonials ul li {
+    flex: 1 1 12vw;
+}
+
+.team li img,
+.testimonials li img {
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    box-shadow: 3px 6px 20px 0px #9f9898;
+}
+
+.team header div:first-of-type,
+.testimonials header div:first-of-type {
+    font-weight: bold;
+}
+
+.team li p,
+.testimonials li p {
+    font-style: italic;
+}
+
+
+
+
+
+.news-subscribe {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    background-color: #68347B;
+    z-index: 1;
+    margin: 0;
+}
+
+.news-subscribe:before {
+    content: ' + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +';
+    color: #6D3980;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.news-subscribe h2 {
+    color: white;
+}
+
+.news-subscribe .btn {
+    background-color: white;
+}
+
+
+
+
+
+footer {
+    margin: 2.2rem 0;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: inset 0px 15px 20px 1px #E1E1E1;
+}
+
+footer article {
+    flex: 0 1 19vw;
+    align-self: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+footer .menu-wrapper {
+    display: flex;
 }
 
 
@@ -15,9 +146,14 @@ header {
 
 
 
+.btn {
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 3px;
+}
 
-@media screen and (min-width: 768px) {
-    html {
-        font-size: 16px;
-    }
+hr {
+    width: 100px;
+    border-color: black;
+    /* margin-left: 20vw; */
 }

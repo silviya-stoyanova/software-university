@@ -1,0 +1,44 @@
+@media screen and (max-width: 800px) {
+    .site-header,
+    section {
+        margin: 1rem 2rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 16px;
+    }
+
+    label[for="toggle-menu"] {
+        display: none;
+    }
+
+    ul.menu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    ul.menu a {
+        padding: 0.5rem;
+    }
+
+    .site-header {
+        margin: 0.3rem 5rem;
+    }
+
+    section {
+        margin: 0 12rem;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .site-header {
+        margin: 0.3rem 18rem;
+    }
+
+    section {
+        margin: 0 25rem;
+    }
+}
