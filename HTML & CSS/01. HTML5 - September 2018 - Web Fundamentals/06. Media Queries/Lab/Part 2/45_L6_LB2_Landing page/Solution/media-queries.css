@@ -1,7 +1,9 @@
 @media screen and (max-width: 800px) {
     .site-header,
     section {
-        margin: 1rem 2rem;
+        /* margin: 1rem 2rem; */
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 }
 
@@ -29,16 +31,18 @@
     }
 
     section {
-        margin: 0 12rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
     }
 }
 
 @media screen and (min-width: 1300px) {
     .site-header {
-        margin: 0.3rem 18rem;
+        margin: 0.3rem 7rem;
     }
 
     section {
-        margin: 0 25rem;
+        margin-left: 12rem;
+        margin-right: 12rem;
     }
 }

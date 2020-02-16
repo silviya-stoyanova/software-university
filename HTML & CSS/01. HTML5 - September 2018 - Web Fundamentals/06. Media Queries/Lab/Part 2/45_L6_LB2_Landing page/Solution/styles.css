@@ -11,23 +11,20 @@
 }
 
 section {
-    padding-top: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .need-website {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.need-website h2 {
-    /* padding: 0.7rem 0 2rem; */
+    padding: 0 6rem;
 }
 
 .need-website p {
     padding: 2rem 0;
 }
-
 
 .fa-globe-americas {
     font-size: 10rem;
@@ -57,6 +54,8 @@ section {
 .team ul li,
 .testimonials ul li {
     flex: 1 1 12vw;
+    padding: 1.2rem 0;
+    margin: 0 3rem;
 }
 
 .team li img,
@@ -67,10 +66,11 @@ section {
     height: 5rem;
     object-fit: cover;
     box-shadow: 3px 6px 20px 0px #9f9898;
+    margin-bottom: 1.2rem;
 }
 
 .team header div:first-of-type,
-.testimonials header div:first-of-type {
+.testimonials footer div:first-of-type {
     font-weight: bold;
 }
 
@@ -79,8 +79,34 @@ section {
     font-style: italic;
 }
 
+.team ul header div:nth-child(2),
+.testimonials footer div:first-child {
+    color: #333333;
+}
 
+.team ul p {
+    color: #1A1A1A;
+}
 
+.team header {
+    padding-bottom: 1rem;
+}
+
+.testimonials footer {
+    padding-top: 1rem;
+}
+
+.testimonials p {
+   color: #484848;
+}
+
+.testimonials footer div:nth-child(2) {
+    color: #5C5C5C;
+}
+
+.testimonials h2 {
+    color: #333333;
+}
 
 
 .news-subscribe {
@@ -94,6 +120,8 @@ section {
     background-color: #68347B;
     z-index: 1;
     margin: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 .news-subscribe:before {
@@ -111,15 +139,29 @@ section {
     color: white;
 }
 
+.news-subscribe div {
+    height: 2rem;
+}
+
+.news-subscribe input {
+    padding: 0.2rem;
+    font-size: 1.2rem;
+    border: 1px solid #333333;
+    height: 100%;
+    border-radius: 3px;
+}
+
 .news-subscribe .btn {
     background-color: white;
+    height: 100%;
+    vertical-align: bottom;
 }
 
 
 
 
 
-footer {
+.site-footer {
     margin: 2.2rem 0;
     padding-top: 2rem;
     display: flex;
@@ -127,8 +169,8 @@ footer {
     box-shadow: inset 0px 15px 20px 1px #E1E1E1;
 }
 
-footer article {
-    flex: 0 1 19vw;
+.site-footer article {
+    flex: 0 1 20vw;
     align-self: baseline;
     display: flex;
     flex-wrap: wrap;
@@ -136,8 +178,10 @@ footer article {
     align-content: center;
 }
 
-footer .menu-wrapper {
+.site-footer .menu-wrapper {
+    width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 
@@ -148,12 +192,13 @@ footer .menu-wrapper {
 
 .btn {
     padding: 0.5rem;
-    border: 1px solid black;
+    color: #333333;
     border-radius: 3px;
+    border: 1px solid #333333;
 }
 
 hr {
     width: 100px;
     border-color: black;
-    /* margin-left: 20vw; */
+    margin-bottom: 2rem;
 }
