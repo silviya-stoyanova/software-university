@@ -6,31 +6,10 @@ nav {
     flex: 1 1 auto;
 }
 
-ul.menu {
-    display: none;
-}
-
 nav a {
     color: #333333;
 }
 
 .fa-times {
     display: none;
-}
-
-label[for="toggle-menu"] {
-    flex: 1 0 60vw;
-    cursor: pointer;
-}
-
-input#toggle-menu:checked + nav .fa-bars {
-    display: none;
-}
-
-input#toggle-menu:checked + nav .fa-times {
-    display: inline;
-}
-
-input#toggle-menu:checked + nav ul.menu {
-    display: block;
 }
