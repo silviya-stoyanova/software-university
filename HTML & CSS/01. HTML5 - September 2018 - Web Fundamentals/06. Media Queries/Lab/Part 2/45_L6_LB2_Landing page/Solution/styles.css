@@ -27,11 +27,6 @@ section {
     padding: 2rem 0;
 }
 
-.fa-globe-americas {
-    font-size: 10rem;
-    padding: 3rem;
-}
-
 
 
 
@@ -44,20 +39,24 @@ section {
     text-align: center;
 }
 
-
 .team ul,
 .testimonials ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.team ul li,
+.testimonials ul li {
+    padding: 1.2rem 0;
 }
 
 .team li img,
 .testimonials li img {
     border-radius: 50%;
     border: 2px solid black;
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     object-fit: cover;
     box-shadow: 3px 6px 20px 0px #9f9898;
     margin-bottom: 1.2rem;
@@ -138,11 +137,11 @@ section {
 }
 
 .news-subscribe input {
+    height: 100%;
     padding: 0.2rem;
     font-size: 1.2rem;
-    border: 1px solid #333333;
-    height: 100%;
     border-radius: 3px;
+    border: 2px solid #333333;
 }
 
 .news-subscribe .btn {
@@ -154,31 +153,21 @@ section {
 
 
 
-
 .site-footer {
+    display: flex;
     margin: 2.2rem 0;
     padding-top: 2rem;
-    display: flex;
-    justify-content: space-evenly;
     box-shadow: inset 0px 15px 20px 1px #E1E1E1;
-}
-
-.site-footer article {
-    flex: 0 1 20vw;
-    align-self: baseline;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
 }
 
 .site-footer .menu-wrapper {
     width: 100%;
     display: flex;
-    justify-content: space-between;
 }
 
-
+.contacts .fas {
+    padding: 0.2rem;
+}
 
 
 
@@ -188,7 +177,7 @@ section {
     padding: 0.5rem;
     color: #333333;
     border-radius: 3px;
-    border: 1px solid #333333;
+    border: 2px solid #333333;
 }
 
 hr {

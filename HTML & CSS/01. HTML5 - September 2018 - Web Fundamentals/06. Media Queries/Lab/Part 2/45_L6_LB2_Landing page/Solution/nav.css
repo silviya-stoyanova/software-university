@@ -2,12 +2,18 @@ input#toggle-menu {
     display: none;
 }
 
-nav {
-    flex: 1 1 auto;
+.menu li {
+    padding: 0.7rem;
 }
 
-nav a {
+.menu a {
     color: #333333;
+}
+
+.fa-bars,
+.fa-times {
+    padding: 0.5rem;
+    font-size: 1.2rem;
 }
 
 .fa-times {
