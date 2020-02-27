@@ -1,0 +1,100 @@
+@import url('./nav.css');
+@import url('./media-queries.css');
+
+html {
+    font-family: Verdana, sans-serif;
+    background-color:  #EBEBEB;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #000000;
+}
+
+header h1 {
+    text-transform: uppercase;
+    margin-left: 1rem;
+    margin-bottom: 0;
+
+    width: 15rem;
+
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body > main {
+    width: 70vw;
+}
+
+aside {
+    flex: 1 1 16vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    padding-left: 2rem;
+}
+
+aside section {
+    flex: 1 1 15rem;
+}
+
+aside ul li a {
+    color: #048E03;
+}
+
+article {
+    padding-top: 0.5em;
+}
+
+h1, h2 {
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.align-right {
+    float: right;
+    margin: 1em 0em 1em 2em;
+}
+
+.align-left {
+    float: left;
+    margin: 1em 2em 1em 0;
+}
+
+.has-floated-children:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+img[class^="align"] {
+    height: auto;
+    padding: 0.7em;
+    border: 3px solid black;
+    background-color: rgba(255, 255, 255, 0.705);
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.336);
+}
+
+blockquote {
+    box-sizing: border-box;
+    margin: 1rem 1rem;
+    padding-left: 1.5em;
+    padding-bottom: 1.5em;
+    font-style: italic;
+    border-left: 2px solid #D8D8D8;
+    color: #3C3C3C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 45%;
+}

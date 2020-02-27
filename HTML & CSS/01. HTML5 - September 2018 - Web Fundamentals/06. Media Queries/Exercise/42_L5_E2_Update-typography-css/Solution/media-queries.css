@@ -1,0 +1,64 @@
+@media screen and (min-width: 500px) {
+    html {
+        font-size: 14px;
+    }
+
+    blockquote {
+        float: right;
+        width: 50%;
+    }
+
+    .left-al-text {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    html {
+        font-size: 16px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .align-right {
+        float: right;
+        margin: 1em 0em 1em 2em;
+    }
+
+    .align-left {
+        float: left;
+        margin: 1em 2em 1em 0;
+    }
+
+    img[class^="align"] {
+        max-width: 35vw;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 18px;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    img[class^="align"] {
+        max-width: 20vw;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    html {
+        font-size: 21px;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    html {
+        font-size: 23px;
+        margin-left: 13rem;
+        margin-right: 13rem;
+    }
+}

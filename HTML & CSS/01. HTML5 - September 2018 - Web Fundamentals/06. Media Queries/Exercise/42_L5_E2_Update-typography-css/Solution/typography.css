@@ -1,0 +1,25 @@
+html {
+    margin: 1rem 1rem;
+    font: normal 12px/1.5 Verdana, sans-serif;
+    background-color:  #EBEBEB;
+}
+
+h1, h2 {
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+article {
+    padding-top: 0.5em;
+}
+
+blockquote {
+    box-sizing: border-box;
+    padding-left: 1.5em;
+    padding-bottom: 1.5em;
+    margin: 1em 1em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3C3C3C;
+    border-left: 2px solid #D8D8D8;
+}
