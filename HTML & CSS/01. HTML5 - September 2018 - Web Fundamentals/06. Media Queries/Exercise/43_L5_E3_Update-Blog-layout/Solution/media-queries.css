@@ -39,6 +39,17 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+    header h1,
+    header nav {
+        flex-basis: 100%;
+    }
+    
+    label[for="menu"] {
+        align-self: center;
+    }
+}
+
 @media screen and (min-width: 800px) {
     html {
         margin-left: 3rem;
@@ -48,6 +59,64 @@
     img[class^="align"] {
         max-width: 10vw;
     }
+
+    header {
+        border-bottom: 1px solid rgb(61, 58, 58);
+        flex-direction: row;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: flex-end;
+        flex: 1 1 25rem;
+    }
+
+    ul {
+        width: 10%;
+    }
+
+    ul ul {
+        display: block;
+        position: absolute;
+        width: 20%;
+    }
+
+    ul li {
+        flex: 0 1 auto;
+    }
+
+    .toggle-nav {
+        display: none;
+    }
+
+    nav > ul {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        flex: 0 1 23rem;
+        border: none;
+    }
+
+    nav > ul > li > ul {
+        right: 9rem;
+        top: 2.8rem;
+    }
+
+    /* .nest-level-3-1 {
+        right: 5.2rem;
+        top: 0.1rem;
+    }
+
+    .nest-level-3-2 {
+        right: 5.2rem;
+        top: 2.8rem;
+    }
+
+    .nest-level-3-3 {
+        right: 5.2rem;
+        top: 7rem;
+    } */
 }
 
 @media screen and (max-width: 1060px) {

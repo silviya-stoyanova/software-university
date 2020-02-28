@@ -9,16 +9,16 @@ html {
 body {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
     justify-content: space-between;
 }
 
 header {
     width: 100%;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 1rem;
+    padding-bottom: 1rem;
     border-bottom: 2px solid #000000;
 }
 
@@ -56,7 +56,8 @@ article {
     padding-top: 0.5em;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-weight: 500;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }

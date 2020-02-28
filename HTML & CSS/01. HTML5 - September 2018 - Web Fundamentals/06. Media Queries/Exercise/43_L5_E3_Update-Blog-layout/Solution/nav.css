@@ -6,7 +6,7 @@ nav {
     align-items: center;
     flex: 1 1 auto;
     color: rgb(243, 240, 233);
-    margin-bottom: 1rem;
+    justify-content: space-between;
 }
 
 nav a {
@@ -22,8 +22,8 @@ nav ul {
 nav ul li {
     flex: 1 1 auto;
     list-style: none;
-   margin: 0.2rem;
-   white-space: nowrap;
+    margin: 0.2rem;
+    white-space: nowrap;
 }
 
 nav ul li a {
@@ -66,42 +66,31 @@ ul ul ul li:hover {
     font-weight: bold;
 }
 
-.toggle-nav-input:checked + .nest-level-1 {
+.toggle-nav-input:checked + ul {
     display: inherit;
 }
 
-.nest-level-1 {
-    justify-content: flex-end;
+nav > ul {
     flex: 1 1 20%;
-    margin: 1rem 0 0 0;
-
+    justify-content: flex-end;
     background-color: white;
     border-radius: 5px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
-.nest-level-1,
-.nest-level-2,
-.nest-level-3-1,
-.nest-level-3-2,
-.nest-level-3-3 {
-    flex-direction: column;
+nav ul,
+nav ul ul  {
     display: none;
+    flex-direction: column;
     transition: 0.2s ease opacity;
 }
 
-.nest-level-2,
-.nest-level-3-1,
-.nest-level-3-2,
-.nest-level-3-3 {
+nav ul ul {
     min-width: 5rem;
 }
 
-li.products:hover .nest-level-2,
-li.men:hover .nest-level-3-1,
-li.women:hover .nest-level-3-2,
-li.kids:hover .nest-level-3-3 {
+li:hover > ul {
     display: inherit;
 }
 
@@ -114,62 +103,3 @@ footer {
     align-self: center;
 }
 
-@media screen and (min-width: 700px) {
-    header {
-        flex-direction: row;
-        flex-wrap: wrap;
-        border-bottom: 1px solid rgb(61, 58, 58);
-    }
-
-    nav {
-        flex-direction: row;
-        justify-content: flex-end;
-        flex: 1 1 25rem;
-    }
-
-    ul {
-        width: 10%;
-    }
-
-    ul ul {
-        display: block;
-        position: absolute;
-    }
-
-    ul li {
-        flex: 0 1 auto;
-    }
-
-    .toggle-nav {
-        display: none;
-    }
-
-    .nest-level-1 {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        flex: 0 1 23rem;
-        border: none;
-    }
-
-    .nest-level-2 {
-        right: 9rem;
-        top: 2.8rem;
-    }
-
-    .nest-level-3-1 {
-        right: 5.2rem;
-        top: 0.1rem;
-    }
-
-    .nest-level-3-2 {
-        right: 5.2rem;
-        top: 2.8rem;
-    }
-
-    .nest-level-3-3 {
-        right: 5.2rem;
-        top: 7rem;
-    }
-}
