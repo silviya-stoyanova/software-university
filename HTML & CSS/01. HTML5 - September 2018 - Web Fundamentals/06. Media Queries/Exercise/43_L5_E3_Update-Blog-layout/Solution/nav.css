@@ -1,13 +1,12 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
 
-
-
 nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex: 1 1 auto;
     color: rgb(243, 240, 233);
+    margin-bottom: 1rem;
 }
 
 nav a {
@@ -23,15 +22,17 @@ nav ul {
 nav ul li {
     flex: 1 1 auto;
     list-style: none;
+   margin: 0.2rem;
+   white-space: nowrap;
 }
 
 nav ul li a {
     color: inherit;
 }
 
-nav ul li, .toggle-nav {
+nav ul li,
+.toggle-nav {
     padding: 0.5rem;
-    margin: 0.2rem 0;
     border-radius: 5px;
     background-color: rgb(61, 58, 58);
     transition: 0.3s ease background-color;
@@ -40,9 +41,11 @@ nav ul li, .toggle-nav {
 .toggle-nav {
     flex: 0 1 1rem;
     align-self: flex-end;
+    margin: 0.2rem 0;
 }
 
-ul li:hover, .toggle-nav:hover {
+ul li:hover,
+.toggle-nav:hover {
     cursor: pointer;
     background-color: #555555;
 }
@@ -73,6 +76,7 @@ ul ul ul li:hover {
     margin: 1rem 0 0 0;
 
     background-color: white;
+    border-radius: 5px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }

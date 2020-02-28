@@ -2,10 +2,6 @@
     html {
         font-size: 14px;
     }
-
-    /* .left-al-text {
-        width: 45%;
-    } */
 }
 
 @media screen and (max-width: 600px) {
@@ -45,22 +41,14 @@
 
 @media screen and (min-width: 800px) {
     html {
-        font-size: 18px;
         margin-left: 3rem;
         margin-right: 3rem;
     }
 
     img[class^="align"] {
-        max-width: 20vw;
+        max-width: 10vw;
     }
 }
-
-/* @media screen and (min-width: 1000px) {
-    html {
-        margin-left: 3rem;
-        margin-right: 3rem;
-    }
-} */
 
 @media screen and (max-width: 1060px) {
     main {
