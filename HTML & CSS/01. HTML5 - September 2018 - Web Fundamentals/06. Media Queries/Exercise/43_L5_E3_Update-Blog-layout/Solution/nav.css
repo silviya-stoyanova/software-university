@@ -10,73 +10,24 @@ nav {
 }
 
 nav a {
+    color: inherit;
     text-decoration: none;
 }
 
 nav ul {
     padding: 0.3em;
-    width: 100%;
     display: flex;
-}
-
-nav ul li {
-    flex: 1 1 auto;
     list-style: none;
-    margin: 0.2rem;
     white-space: nowrap;
-}
-
-nav ul li a {
-    color: inherit;
-}
-
-nav ul li,
-.toggle-nav {
-    padding: 0.5rem;
-    border-radius: 5px;
-    background-color: rgb(61, 58, 58);
-    transition: 0.3s ease background-color;
-}
-
-.toggle-nav {
-    flex: 0 1 1rem;
-    align-self: flex-end;
-    margin: 0.2rem 0;
-}
-
-ul li:hover,
-.toggle-nav:hover {
-    cursor: pointer;
-    background-color: #555555;
-}
-
-ul ul li:hover {
-    background-color: rgb(104, 104, 104);
-}
-
-ul ul ul li:hover {
-    background-color: rgb(133, 133, 133);
-}
-
-.toggle-nav-input {
-    display: none;
-}
-
-.toggle-nav > span {
-    font-weight: bold;
-}
-
-.toggle-nav-input:checked + ul {
-    display: inherit;
 }
 
 nav > ul {
     flex: 1 1 20%;
     justify-content: flex-end;
-    background-color: white;
     border-radius: 5px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    background-color: white;
 }
 
 nav ul,
@@ -86,20 +37,42 @@ nav ul ul  {
     transition: 0.2s ease opacity;
 }
 
-nav ul ul {
-    min-width: 5rem;
+nav ul ul li:hover {
+    background-color: rgb(104, 104, 104);
 }
 
-li:hover > ul {
+nav ul ul ul li:hover {
+    background-color: rgb(133, 133, 133);
+}
+
+nav li:hover > ul {
     display: inherit;
 }
 
-main {
-    margin: 1rem;
+nav li {
+    flex: 0 1 1rem;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: rgb(61, 58, 58);
+    transition: 0.3s ease background-color;
 }
 
-footer {
-    margin-top: auto;
-    align-self: center;
+nav li:hover {
+    cursor: pointer;
+    background-color: #555555;
+}
+
+.toggle-nav-input {
+    display: none;
+}
+
+.toggle-nav-input:checked + nav > ul,
+.toggle-nav-input:checked + nav .fa-times {
+    display: inherit;
+}
+
+.toggle-nav-input:checked + nav .fa-bars {
+    display: none;
 }
 

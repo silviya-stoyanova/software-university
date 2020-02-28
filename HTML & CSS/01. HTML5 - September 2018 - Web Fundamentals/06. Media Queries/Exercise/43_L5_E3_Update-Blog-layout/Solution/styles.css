@@ -12,6 +12,12 @@ body {
     justify-content: space-between;
 }
 
+h1,
+h2 {
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 header {
     width: 100%;
     display: flex;
@@ -54,12 +60,6 @@ aside ul li a {
 
 article {
     padding-top: 0.5em;
-}
-
-h1,
-h2 {
-    font-weight: 500;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .align-right {
