@@ -1,0 +1,21 @@
+input#toggle-menu {
+    display: none;
+}
+
+.menu li {
+    padding: 0.7rem;
+}
+
+.menu a {
+    color: #333333;
+}
+
+.fa-bars,
+.fa-times {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.fa-times {
+    display: none;
+}

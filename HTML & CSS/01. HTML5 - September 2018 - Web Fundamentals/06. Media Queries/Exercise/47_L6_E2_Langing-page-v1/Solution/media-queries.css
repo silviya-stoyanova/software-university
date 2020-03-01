@@ -1,0 +1,157 @@
+@media screen and (max-width: 600px) {
+    .fa-globe-americas {
+        padding: 1rem;
+        font-size: 7rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .need-website {
+        padding: 3rem;
+    }
+
+    .fa-globe-americas {
+        padding: 3rem;
+        font-size: 10rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 14px;
+    }
+
+    label[for="toggle-menu"] {
+        flex: 0 0 4rem;
+        cursor: pointer;
+        text-transform: uppercase;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .site-header,
+    .need-website {
+        padding: 1rem;
+    }
+
+    .site-header .menu {
+        display: none;
+    }
+
+    input#toggle-menu:checked + header .fa-bars {
+        display: none;
+    }
+
+    input#toggle-menu:checked + header .fa-times {
+        display: inline;
+    }
+
+    input#toggle-menu:checked + header .menu {
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menu li {
+        flex-basis: 100%;
+        text-align: center;
+        background-color: #eee;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .team ul li,
+    .testimonials ul li {
+        flex: 0 1 35vw;
+    }
+
+    .site-footer {
+        flex-wrap: wrap;
+    }
+
+    .site-footer article {
+        flex-basis: 100%;
+        padding: 0.5rem 2.5rem;
+    }
+
+    .site-footer .menu-wrapper ul {
+        padding-right: 20vw;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    html {
+        font: normal 16px/1.6 Helvetica, sans-serif
+    }
+
+    label[for="toggle-menu"] {
+        display: none;
+    }
+
+    ul.menu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    ul.menu a {
+        padding: 0.5rem;
+    }
+
+    .site-header {
+        margin: 0.3rem 5rem;
+    }
+
+    .need-website {
+        padding: 8rem;
+    }
+
+    .testimonials,
+    .team {
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+
+    .team ul li,
+    .testimonials ul li {
+        flex: 0 1 20vw;
+    }
+
+    .site-footer {
+        justify-content: space-evenly;
+    }
+
+    .site-footer article {
+        flex: 0 1 20vw;
+        align-self: baseline;
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .site-footer .menu-wrapper {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .site-header {
+        margin: 0.3rem 7rem;
+    }
+
+    section {
+        margin-left: 12rem;
+        margin-right: 12rem;
+    }
+
+    .testimonials,
+    .team {
+        margin-left: 14rem;
+        margin-right: 14rem;
+    }
+}
