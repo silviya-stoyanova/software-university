@@ -23,6 +23,14 @@ ul {
     margin: 0;
 }
 
+li {
+    background-image: linear-gradient(#FFF, #d0cfcf);
+    margin: 0.4rem;
+    border-radius: 50%;
+    /* box-shadow: 3px 8px 8px 0px #acacac; */
+    box-shadow: 0px 7px 10px 1px #acacac;
+}
+
 a {
     text-decoration: none;
     display: flex;
@@ -30,10 +38,8 @@ a {
     margin: 0.2rem;
     padding: 0.5rem;
     border-radius: 50%;
-    border: 1px solid black;
-    box-shadow: 0px 4px 4px 1px #acacac;
     background-color: #DFDFDF;
-    background-image: linear-gradient(#cbcbcb, #FFF);
+    background-image: linear-gradient(#d0cfcf, #FFF);
 }
 
 .fab {
@@ -42,22 +48,22 @@ a {
     transition: color 0.3s ease;
 }
 
-.fa-facebook-square:hover {
+a:hover .fa-facebook-square {
     color: #3B5998;
 }
 
-.fa-twitter:hover {
+a:hover .fa-twitter {
     color: #00ACED;
 }
 
-.fa-google-plus:hover {
+a:hover .fa-google-plus {
     color: #DD4B39;
 }
 
-.fa-linkedin:hover {
+a:hover .fa-linkedin {
     color: #007BB6;
 }
 
-.fa-instagram:hover {
+a:hover .fa-instagram {
     color: #5782A6;
 }
