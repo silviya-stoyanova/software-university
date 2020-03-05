@@ -24,7 +24,6 @@ ul {
 }
 
 li {
-    background-image: linear-gradient(#FFF, #d0cfcf);
     margin: 0.4rem;
     border-radius: 50%;
     box-shadow: 0px 7px 10px 1px #acacac;
@@ -36,31 +35,30 @@ a {
     text-decoration: none;
     display: flex;
     flex-wrap: wrap;
-    margin: 0.2rem;
-    padding: 0.5rem;
+    padding: 0.25rem;
     border-radius: 50%;
     background-color: #DFDFDF;
-    background-image: linear-gradient(#d0cfcf, #FFF);
+    background-image: linear-gradient(#FFF, #d0cfcf);
 }
 
 li.facebook:hover {
-    box-shadow: 0px 3px 4px 0px #acacac;
+    box-shadow: 0px 3px 3px 0px #acacac;
 }
 
 li.twitter:hover {
-    box-shadow: 0px 3px 4px 0px #acacac;
+    box-shadow: 0px 3px 3px 0px #acacac;
 }
 
 li.google-plus:hover {
-    box-shadow: 0px 3px 4px 0px #acacac;
+    box-shadow: 0px 3px 3px 0px #acacac;
 }
 
 li.linkedin:hover {
-    box-shadow: 0px 3px 4px 0px #acacac;
+    box-shadow: 0px 3px 3px 0px #acacac;
 }
 
 li.instagram:hover {
-    box-shadow: 0px 3px 4px 0px #acacac;
+    box-shadow: 0px 3px 3px 0px #acacac;
 }
 
 li.facebook:hover a {
@@ -84,6 +82,9 @@ li.instagram:hover a {
 }
 
 .fab {
-    font-size: 18px;
+    font-size: 18px;    
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-image: linear-gradient(#d0cfcf, #FFF);
     transition: color 0.3s ease;
 }
