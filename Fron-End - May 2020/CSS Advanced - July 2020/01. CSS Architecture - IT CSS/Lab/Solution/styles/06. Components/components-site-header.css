@@ -1,0 +1,80 @@
+.c-site-header{
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 80px;
+    padding: 0 30px;
+    margin-top: 0;
+    box-shadow: 0 6px 10px 0  rgb(41, 57, 75, .25);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #FFF;
+    position: relative;
+    z-index: 9999;
+}
+
+.c-primary-login-and-sign-up{
+    align-items: center;
+}
+
+.c-site-header .c-primary-login-and-sign-up .c-cta{
+    margin-left: 15px;
+    min-height: 50px;
+    min-width: 80px;
+}
+
+.c-site-header .c-site-primary-logo{
+    width: 120px;
+    display: flex;
+    margin-right: auto;
+}
+
+.header-and-introduction-container {
+    position: relative;
+    background: no-repeat url("./../../images/about-page-hero.jpg");
+    background-size: cover;
+    min-height: 500px;
+}
+
+.header-and-introduction-container:before {
+    position: absolute;
+    content: '';
+    background-color: #49A3E5;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.92;
+}
+
+.introduction-container {
+    position: relative;
+    z-index: 1;
+    color: #FFF;
+}
+
+.introduction-title {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.introduction-text {
+    margin: 10px 0;
+}
+
+.apply-btn {
+    background-color: #FFF;
+    box-shadow: 0 6px 10px 0  rgb(41, 57, 75, 0.25);
+}
+
+.apply-btn a {
+    color: #4DA4E5;
+}
+
+.curriculum-btn {
+    background-color: transparent;
+    border: 1px solid #FFF;
+}
+
+.curriculum-btn a {
+    color: #FFF;
+}

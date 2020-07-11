@@ -1,0 +1,10 @@
+a{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(66, 171, 248);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}

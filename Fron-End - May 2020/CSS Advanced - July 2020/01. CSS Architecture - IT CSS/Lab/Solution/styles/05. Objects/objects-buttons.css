@@ -1,0 +1,18 @@
+.o-buttons-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 27%;
+}
+
+.o-button {
+  padding: 10px 25px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.o-separating-line {
+  padding: 10px 1px;
+  margin: 8px auto;
+  background-color: #FFF;
+}

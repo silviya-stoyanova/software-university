@@ -1,0 +1,178 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
+
+body {
+  font-family: 'Gelasio', serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  background: no-repeat url("../Requirements-and-Resources/images/map.jpg");
+  background-size: cover;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  padding: 10px 45px;
+  background-color: transparent;
+}
+
+.site-nav a {
+  font-size: 10px;
+  color: #CACACA;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.logo-container {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.logo-image {
+  max-width: 100%;
+}
+
+.header-title-container {
+  flex: 1 0 auto;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.header-title {
+  font-size: 50px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.header-btn {
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  background: #146594;
+  padding: 5px 8px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.site-main {
+  padding: 15px 100px;
+  background-color: #E1E1E1;
+}
+
+.articles-container {
+  display: flex;
+  height: 400px;
+}
+
+.articles-title {
+  padding-bottom: 15px;
+  font-size: 22px;
+  color: #53595C;
+}
+
+.article-container {
+  /*width: 100px;*/
+  display: flex;
+  position: relative;
+}
+
+.first-container,
+.second-container {
+  justify-content: center;
+}
+
+.third-container {
+
+}
+
+.articles-left-aligned {
+  flex: 1 0 40%;
+}
+
+.articles-right-aligned {
+  flex: 1 0 60%;
+}
+
+.article-title {
+  position: absolute;
+  color: #FFF;
+  text-shadow: 1px 1px 1px black;
+  font-size: 20px;
+}
+
+.first-title {
+  top: 20px;
+}
+
+.second-title {
+
+}
+
+.third-title {
+  left: 5px;
+  bottom: 20px;
+}
+
+
+.first-image-container {
+  height: 400px;
+}
+
+.second-image-container {
+  height: 200px;
+}
+
+.third-image-container {
+  height: 200px;
+}
+
+.article-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #8C8C8C;
+  padding: 20px 0;
+}
+
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-list-item {
+  list-style-type: none;
+}
+
+.footer-list-item:not(:last-child) .footer-list-item-link {
+  border-right: 1px solid #C4C4C4;
+}
+
+.footer-list-item-link {
+  padding: 0 10px;
+  font-size: 10px;
+  text-decoration: none;
+  color: #C4C4C4;
+}

@@ -1,0 +1,66 @@
+header h2 {
+  width: 140px;
+}
+
+.main-movie ul {
+  flex-wrap: wrap;
+}
+
+.main-movie iframe {
+  max-width: 100%;
+}
+.main-movie-poster {
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-movie ul li {
+    padding: 0;
+  }
+  
+  .main-movie-poster {
+    display: none;
+  }
+
+  .main-movie ul {
+    width: 100%;
+  }
+
+  .main-movie iframe {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .movie-list {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .main-movie ul {
+    width: 100%;
+  }
+  
+  .main-movie ul li {
+    padding: 0;
+  }
+
+  .main-movie iframe {
+    max-height: 260px;
+  }
+
+  .main-movie-trailer {
+    padding: 0;
+  }
+  
+  .movies {
+    margin-bottom:  60px;
+  }
+  
+  .movie-list {
+    flex-wrap: wrap;
+  }
+}
+

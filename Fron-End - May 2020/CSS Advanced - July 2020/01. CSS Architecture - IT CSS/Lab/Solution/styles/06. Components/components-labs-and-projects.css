@@ -1,0 +1,46 @@
+.labs-and-projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 350px;
+}
+
+.labs-and-projects-text-container {
+  flex: 0 1 40%;
+}
+
+.labs-and-projects-title {
+  color: #414F60;
+}
+
+.labs-and-projects-text {
+  color: #6C7783;
+}
+
+.labs-and-projects-images-container {
+  flex: 0 1 50%;
+  align-self: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.labs-and-projects-image-container {
+  position: relative;
+  margin: 20px;
+  width: 240px;
+  box-shadow: 0 6px 10px 0  rgb(41, 57, 75, 0.25);
+}
+
+.labs-and-projects-image-container {
+  border-radius: 8px;
+}
+
+.labs-and-projects-image-students {
+  align-self: flex-end;
+}
+
+.labs-and-projects-image-student {
+  align-self: flex-start;
+}

@@ -1,0 +1,238 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.page-wrapper {
+  padding: 50px 80px;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 10px 80px;
+  box-shadow: 1px 1px 10px 10px #5c5b5b24;
+}
+
+.site-nav a {
+  color: #636F8C;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.site-nav .login-btn {
+  color: #FFF;
+  background-color: #9B5DC6;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+
+/* diploma and certificates styles */
+
+.diploma-and-certificates-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.diploma-and-certificates-container:before {
+  position: absolute;
+  content: '';
+  width: 600px;
+  height: 600px;
+  background-color: #54546D;
+  right: 0;
+  border-radius: 50%;
+  bottom: 70px;
+  right: -80px;
+}
+
+.diploma-and-certificates-container:after {
+  position: absolute;
+  content: '';
+  background: no-repeat url(./images/award.svg);
+  width: 150px;
+  height: 250px;
+  right: 40px;
+  top: -40px;
+}
+
+.diploma-and-certificates-text-container {
+  flex: 0 0 65%;
+  z-index: 1;
+}
+
+.diploma-and-certificates-text-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #545772;
+  padding-bottom: 20px;
+}
+
+.diploma-and-certificates-text-container p {
+  font-family: 'Lato', sans-serif;
+  color: #343434;
+  padding-bottom: 20px;
+  font-size: 18px;  
+}
+
+.diploma-and-certificates-text-container p.light {
+  color: #848484;
+  font-style: italic;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.diploma-and-certificates-image-container {
+  flex: 0 0 30%;
+  z-index: 1;
+}
+
+
+
+/* cpe section styles */
+
+.cpe-section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #14162B;
+  min-height: 400px;
+}
+
+.cpe-section-text-container {
+  flex: 0 0 70%;
+}
+
+.cpe-section-text-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+  padding-bottom: 20px;
+}
+
+.cpe-section-text-container p {
+  font-family: 'Lato', sans-serif;
+  color: #FFF;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.cpe-section-image-container {
+  position: relative;
+  top: 100px;
+}
+
+
+
+
+/* career center styles */
+
+.career-center-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 400px;
+}
+
+.career-center-text-container {
+  flex: 0 0 65%;
+}
+
+.career-center-text-title {
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 20px;
+  color: #545772;
+
+}
+
+.career-center-text-container p {
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 20px;
+  color: #343434;
+  font-size: 18px;
+}
+
+.career-center-section-image-container {
+  position: relative;
+  top: 100px;
+}
+
+.contact-btn {
+  color: #9B64CB;
+  border: 1px solid #9B64CB;
+  font-family: 'Lato', sans-serif;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+/* footer styles */
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  min-height: 450px;
+  background-color: #2C2C3A;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 40px;
+}
+
+.site-footer * {
+  color: #FFF;
+}
+
+.site-footer-column:not(:last-child) {
+  padding-right: 20px;
+}
+
+
+.site-footer-column li {
+  padding-bottom: 14px;
+}
+
+.site-footer-column-title {
+  color: #9B5DC6;
+  padding-bottom: 17px;
+}
+
+.social-icons-list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.all-rights-reserved p {
+  padding-bottom: 10px;
+}

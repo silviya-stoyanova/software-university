@@ -1,0 +1,46 @@
+.newsletter-boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-box {
+  flex : 0 1 21%;
+}
+
+.bottom-logo {
+  width: 110px;
+  height: 150px;
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .newsletter-box {
+    flex : 0 1 30%;
+    margin: 15px;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .newsletter-box {
+    flex: 1 1 45%;
+  }
+}
+
+@media only screen and (max-width: 884px) {
+  main {
+    padding: 0;
+  }
+
+  .newsletter-boxes {
+    padding: 20px;
+  }
+
+  .newsletter-bottom {
+    display: flex
+  }
+
+  .newsletter-bottom article h4,
+  .newsletter-bottom-content {
+    text-align: start;
+  }
+}

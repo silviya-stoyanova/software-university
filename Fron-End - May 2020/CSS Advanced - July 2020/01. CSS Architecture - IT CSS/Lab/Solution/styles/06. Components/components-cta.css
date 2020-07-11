@@ -1,0 +1,18 @@
+.c-cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font: 14px "Montserrat";
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: #44a9f8;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 6px 8px 15px 1px rgba(27,139,249, 0.4);
+}
+
+.c-cta:hover{
+    text-decoration: none;
+}

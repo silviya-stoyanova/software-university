@@ -1,0 +1,65 @@
+.summary-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.summary-text-container {
+  flex: 0 1 40%;
+}
+
+.summary-title {
+  color: #414F60;
+}
+
+.summary-text {
+  color: #6C7783;
+}
+
+.summary-images-container {
+  flex: 0 1 50%;
+  align-self: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 100px;
+}
+
+.summary-image-container {
+  position: relative;
+  margin: 20px;
+  width: 200px;
+  box-shadow: 0 6px 10px 0  rgb(41, 57, 75, 0.25);
+}
+
+.summary-image-container.summary-image-training-hall:before,
+.summary-image-container.summary-image-graduate-student:after {
+  content: '';
+  position: absolute;
+  top: -70px;
+  width: 80px;
+  height: 90px;
+  border-radius: 8px;
+  background-color: #FFF;
+  box-shadow: 0 6px 10px 0  rgb(41, 57, 75, 0.25);
+}
+
+.summary-image-container.summary-image-training-hall:before {
+  left: -40%;
+  transform: translateX(50%);
+  background-image: url("../../images/softuni-logo.png");
+  background-repeat: no-repeat;
+}
+
+.summary-image-container.summary-image-graduate-student:after {
+  right: -40%;
+  transform: translateX(-50%);
+  background-image: url("../../images/software-university-logo.png");
+  background-repeat: no-repeat;
+}
+
+.summary-image {
+  border-radius: 8px;
+}

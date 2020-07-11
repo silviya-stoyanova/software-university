@@ -1,0 +1,108 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: Poppins;
+}
+
+.login-form-container {
+  text-align: center;
+}
+
+.login-form-container:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: brightness(0.5);
+  background: url("./image.jpg");
+  background-size: cover;
+}
+
+.login-form-title {
+  color: #FFF;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.login-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 380px;
+  height: 250px;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+.login-form-field,
+.submit-btn-container {
+  flex: 0 0 100%;
+  display: flex;
+  align-items: flex-end;
+  height: 33%;
+}
+
+.login-form-field {
+  font-size: 20px;
+  padding-bottom: 5px;
+  color: #79838C;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+
+.login-form-field-username,
+.login-form-field-password {
+  position: relative;
+}
+
+.login-form-field-username input,
+.login-form-field-password input {
+    width: 100%;
+    padding-left: 25%;
+    font-size: 20px;
+    color: #7D7F7D;
+    outline: none;
+    border: none;
+}
+
+.fa-user,
+.fa-lock {
+  position: absolute;
+  color: #AEAEAE;
+  left: 11%;
+  bottom: 8px;
+}
+
+.submit-btn-container {
+  justify-content: center;
+  align-items: center
+}
+
+.submit-btn {
+  padding: 10px 50px;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  border-radius: 100px;
+  color: #FFF;
+  background-color: #D41872;
+  text-transform: uppercase;
+}

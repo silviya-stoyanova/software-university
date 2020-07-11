@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.site-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.diplomas-and-certificates-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #E2E8EE;
+  background-color: #306085;
+  padding: 0 80px;
+  min-height: 500px;
+}
+
+
+.diplomas-and-certificates-container:before {
+  content:'';
+  position: absolute;
+  background: no-repeat url("./images/dots.svg");
+  width: 100px;
+  height: 150px;
+  left: 0;
+  bottom: 0;
+}
+
+.diplomas-and-certificates-title {
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 40px;
+  font-size: 26px;
+}
+
+.diplomas-and-certificates-container p {
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 20px;
+  color: #D3DDE5;
+}
+
+.diplomas-and-certificates-container p.light {
+  color: #A3B8C9;
+  font-style: italic;
+}
+
+.diplomas-and-certificates-container p strong {
+  color: #FFF;
+}
+
+.diplomas-and-certificates-text-container {
+  flex: 0 1 60%;
+}
+
+
+
+.diplomas-and-certificates-images-container {
+  position: relative;
+  flex: 0 1 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.diplomas-and-certificates-images-container:before {
+  content:'';
+  position: absolute;
+  background: no-repeat url("./images/dots.svg");
+  width: 100px;
+  height: 150px;
+  left: 195px;
+  top: -40px;
+}
+
+.diplomas-and-certificates-images-container:after {
+  content:'';
+  position: absolute;
+  background: no-repeat url("./images/arrow.svg");
+  width: 300px;
+  height: 400px;
+  right: -45px;
+  top: -20px;
+}
+
+.diplomas-and-certificates-image-container {
+  z-index: 1;
+}

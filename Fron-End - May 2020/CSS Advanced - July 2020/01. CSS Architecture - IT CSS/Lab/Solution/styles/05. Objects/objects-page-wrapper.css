@@ -1,0 +1,8 @@
+.o-page-wrapper{
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 1290px;
+    width: 100%;
+    padding: 0 50px;
+    margin: 50px auto;
+}

@@ -1,0 +1,14 @@
+.contact-us-sticky-container {
+  position: fixed;
+  top: 55vh;
+  right: -45px;
+  color: #78828E;
+  background-color: #FFF;
+  border-radius: 8px;
+  transform: rotate(-90deg);
+  box-shadow: 0 6px 10px 0  rgb(41, 57, 75, 0.25);
+}
+
+.contact-us-sticky-text {
+  margin: 10px 15px;
+}
