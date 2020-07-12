@@ -1,0 +1,74 @@
+.buttons-guideline {
+}
+
+.buttons-guideline-title {
+  font-weight: 500;
+  text-align: center;
+  color: #244466;
+}
+
+.buttons-guideline-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: centerv ;
+}
+
+
+.btn-primary,
+.btn-secondary,
+.btn-small {
+  margin: 5px;
+}
+
+.btn-primary,
+.btn-small {
+  font-weight: 400;
+  color: #FFF;
+  background-color: #FFA000;
+  box-shadow: 0px 2px 7px 1px rgba(0,0,0,0.14);
+}
+
+.btn-primary:hover,
+.btn-small:hover {
+  box-shadow: none;
+}
+
+.btn-primary {
+  height: 44px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 12px 32px;
+}
+
+.btn-small {
+  height: 31px;
+  font-size: 11px;
+  line-height: 13px;
+  padding: 9px 18px;
+}
+
+.btn-primary-disabled,
+.btn-small-disabled {
+  background-color: #D6D6D6;
+  box-shadow: none;
+}
+
+.btn-secondary {
+  height: 40px;
+  font-weight: 900;
+  line-height: 16px;
+  padding: 11px 24px;
+  color: #FFA000;
+  background-color: #FFF;
+  border: 1px solid #FFA000;
+}
+
+.btn-secondary:not(.btn-secondary-disabled):hover {
+  background-color: rgba(255,160,0,0.06);
+}
+
+.btn-secondary-disabled {
+  color: #D6D6D6;
+  border: 1px solid #D6D6D6;
+}
