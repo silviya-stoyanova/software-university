@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,UAAU,EAAE,MAAM;CACrB;;AAED,AAAA,oBAAoB,CAAC;EACjB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;CACjB",
+    "sources": [
+        "utilities-centered.scss"
+    ],
+    "names": [],
+    "file": "utilities-centered.css"
+}

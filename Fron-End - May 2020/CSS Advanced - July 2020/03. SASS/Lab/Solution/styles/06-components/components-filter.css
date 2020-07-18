@@ -1,0 +1,77 @@
+.filter--wrapper {
+  background: #F8F8F8;
+}
+
+.filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.filter__title {
+  color: #565656;
+}
+
+.filter__labels_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 25px;
+}
+
+.filter__label {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: inline-block;
+}
+
+.filter__label:not(:last-child) {
+  padding-right: 30px;
+}
+
+.filter__label__img {
+  position: relative;
+  top: 5px;
+  right: 15px;
+  width: 30px;
+}
+
+.filter__label__img--info {
+  left: 10px;
+}
+
+.filter__label::after {
+  content: "";
+  background: url(../../assets/icons/arrow.svg) center no-repeat;
+  width: 12px;
+  height: 8px;
+  display: inline-block;
+  position: relative;
+  right: 30px;
+}
+
+.filter__label--level::after {
+  content: "";
+  background: url(../../assets/icons/arrow.svg) center no-repeat;
+  width: 12px;
+  height: 8px;
+  display: inline-block;
+  position: relative;
+  right: 50px;
+}
+/*# sourceMappingURL=components-filter.css.map */

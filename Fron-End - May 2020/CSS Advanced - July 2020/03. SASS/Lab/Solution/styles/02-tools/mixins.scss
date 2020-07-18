@@ -1,0 +1,25 @@
+@import "../01-settings/settings-breakpoints.scss";
+
+@mixin for-phone-up {
+  @media only screen and (min-width: $min-phones-breakpoint) {
+    @content;
+  }
+}
+
+@mixin for-tablet-up {
+  @media only screen and (min-width: $min-tablets-breakpoint) {
+    @content;
+  }
+}
+
+@mixin for-desktop-up {
+  @media only screen and (min-width: $min-desktops-breakpoint) {
+    @content;
+  }
+}
+
+@mixin for-large-desktop-up {
+  @media only screen and (min-width: $min-large-desktops-breakpoint) {
+    @content;
+  }
+}

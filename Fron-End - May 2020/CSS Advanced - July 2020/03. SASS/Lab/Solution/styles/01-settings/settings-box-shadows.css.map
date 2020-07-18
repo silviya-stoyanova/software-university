@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,gBAAgB;AAGhB,gBAAgB;AAGhB,gBAAgB;AAGhB,gBAAgB;AAGhB,gBAAgB;AAGhB,gBAAgB;AAGhB,gBAAgB;AAGhB,gBAAgB;AAGhB,iBAAiB;AAGjB,iBAAiB;AAGjB,iBAAiB",
+    "sources": [
+        "settings-box-shadows.scss"
+    ],
+    "names": [],
+    "file": "settings-box-shadows.css"
+}

@@ -1,0 +1,39 @@
+select {
+  min-width: 200px;
+  min-height: 45px;
+  padding: 12px 18px;
+  color: #919191;
+  background: #F8F8F8;
+  border: 1px solid #FF9100;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  -webkit-appearance: none;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+select::-webkit-input-placeholder {
+  color: #919191;
+}
+
+select:-ms-input-placeholder {
+  color: #919191;
+}
+
+select::-ms-input-placeholder {
+  color: #919191;
+}
+
+select::placeholder {
+  color: #919191;
+}
+
+option {
+  font-size: 16px;
+  line-height: 20px;
+  color: #565656;
+}
+/*# sourceMappingURL=elements-input-fields.css.map */

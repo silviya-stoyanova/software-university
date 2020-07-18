@@ -1,0 +1,11 @@
+@import "../01-settings/settings-colors.scss";
+
+.header__info {
+    display: flex;
+    align-items: center;
+    min-height: 255px;
+    text-align: center;
+    color: $white;
+    background: $orange-800;
+}
+

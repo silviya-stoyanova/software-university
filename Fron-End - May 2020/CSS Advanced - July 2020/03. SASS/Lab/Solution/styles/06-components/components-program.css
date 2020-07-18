@@ -1,0 +1,127 @@
+/* Shadow 0dp */
+/* Shadow 1dp */
+/* Shadow 2dp */
+/* Shadow 3dp */
+/* Shadow 4dp */
+/* Shadow 6dp */
+/* Shadow 8dp */
+/* Shadow 9dp */
+/* Shadow 12dp */
+/* Shadow 16dp */
+/* Shadow 24dp */
+.educational-programs-container {
+  text-align: center;
+  padding-top: 100px;
+  margin: 130px auto 120px;
+  border-top: 10px dotted #E3F3FD;
+}
+
+.educational-programs-container .educational-programs-title {
+  font: 36px Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  color: #41BEAD;
+}
+
+.educational-programs-container .educational-programs-details {
+  width: 65%;
+  margin: auto;
+  font-family: 16px Lato;
+  line-height: 20px;
+  color: #565656;
+}
+
+.educational-programs-container .programs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: min-content;
+      grid-template-rows: -webkit-min-content;
+      grid-template-rows: min-content;
+  -ms-grid-columns: minmax(320px, 630px);
+      grid-template-columns: minmax(320px, 630px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  margin-top: 65px;
+}
+
+@media only screen and (min-width: 992px) {
+  .educational-programs-container .programs {
+    -ms-grid-rows: 260px;
+        grid-template-rows: 260px;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.educational-programs-container .program {
+  padding: 30px 50px;
+}
+
+.educational-programs-container .software-program {
+  background: #E3F3FD;
+  border: 4px solid #44A9F8;
+  border-radius: 12px;
+}
+
+.educational-programs-container .software-program .programs-title {
+  color: #44A9F8;
+}
+
+.educational-programs-container .software-program .programs-title:before {
+  width: 40px;
+  height: 30px;
+  left: -55px;
+  background: center/contain url("../../assets/icons/software-program-icon.svg");
+}
+
+.educational-programs-container .hardware-program {
+  background: #DFF4F1;
+  border: 4px solid #00AF9B;
+  border-radius: 12px;
+}
+
+.educational-programs-container .hardware-program .programs-title {
+  color: #00AF9B;
+}
+
+.educational-programs-container .hardware-program .programs-title:before {
+  width: 30px;
+  height: 30px;
+  top: -3px;
+  left: -45px;
+  background: center/contain url("../../assets/icons/hardware-program-icon.svg");
+}
+
+.educational-programs-container .programs-title {
+  position: relative;
+  font: 24px Montserrat;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 0;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: auto;
+}
+
+.educational-programs-container .programs-title:before {
+  content: "";
+  position: absolute;
+}
+
+.educational-programs-container .programs-details {
+  font: 16px Lato;
+  line-height: 20px;
+  color: #565656;
+  margin-bottom: 30px;
+}
+
+.educational-programs-container .programs-btn {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 800;
+}
+/*# sourceMappingURL=components-program.css.map */

@@ -1,0 +1,29 @@
+@import "../01-settings/settings-colors.scss";
+@import "../01-settings/settings-box-shadows.scss";
+
+.btn {
+    box-shadow: $shadow-4;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 10px 22px;
+    text-transform: uppercase;
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: $shadow-1;
+    }
+}
+
+.btn--secondary {
+    background: $orange-800;
+    color: $white;
+}
+
+.btn--login {
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 16px;
+}

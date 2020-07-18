@@ -1,0 +1,8 @@
+@import "../02-tools/mixins.scss";
+
+.container {
+    max-width: 1250px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 0 50px;
+}

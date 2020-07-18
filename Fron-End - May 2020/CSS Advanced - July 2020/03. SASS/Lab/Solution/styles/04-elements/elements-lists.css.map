@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAC;EACD,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CACV;CAAC;;AAED,AAAA,EAAE,CAAC;EACD,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "elements-lists.scss"
+    ],
+    "names": [],
+    "file": "elements-lists.css"
+}

@@ -1,0 +1,107 @@
+@import "../01-settings/settings-colors.scss";
+@import "../01-settings/settings-box-shadows.scss";
+@import "../02-tools/mixins.scss";
+
+.educational-programs-container {
+  text-align: center;
+  padding-top: 100px;
+  margin: 130px auto 120px;
+  border-top: 10px dotted $blue-50;
+
+  .educational-programs-title {
+    font: 36px Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    color: $green-300;
+  }
+
+  .educational-programs-details {
+    width: 65%;
+    margin: auto;
+    font-family: 16px Lato;
+    line-height: 20px;
+    color: $grey-700;
+  }
+
+  .programs {
+    display: grid;
+    grid-template-rows: min-content;
+    grid-template-columns: minmax(320px, 630px);
+    justify-content: center;
+    gap: 30px;
+    margin-top: 65px;
+
+    @include for-desktop-up {
+      grid-template-rows: 260px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .program {
+    padding: 30px 50px;
+  }
+
+  .software-program {
+    background: $blue-50;
+    border: 4px solid $blue-400;
+    border-radius: 12px;
+
+    .programs-title {
+      color: $blue-400;
+
+      &:before {
+        width: 40px;
+        height: 30px;
+        left: -55px;
+        background: center/contain url("../../assets/icons/software-program-icon.svg");
+      }
+    }
+  }
+
+  .hardware-program {
+    background: $green-50;
+    border: 4px solid $green-400;
+    border-radius: 12px;
+
+    .programs-title {
+      color: $green-400;
+
+      &:before {
+        width: 30px;
+        height: 30px;
+        top: -3px;
+        left: -45px;
+        background: center/contain url("../../assets/icons/hardware-program-icon.svg");
+      }
+    }
+  }
+
+  .programs-title {
+    position: relative;
+    font: 24px Montserrat;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 0;
+    max-width: fit-content;
+    margin: auto;
+
+    &:before {
+      content: "";
+      position: absolute;
+    }
+  }
+
+  .programs-details {
+    font: 16px Lato;
+    line-height: 20px;
+    color: $grey-700;
+    margin-bottom: 30px;
+  }
+
+  .programs-btn {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 800;
+  }
+}

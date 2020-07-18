@@ -1,0 +1,135 @@
+@import "../01-settings/settings-colors.scss";
+@import "../01-settings/settings-box-shadows.scss";
+
+.cards--wrapper {
+    margin: 50px 0;
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card {
+        flex: 1 1 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 400px;
+        margin: 15px;
+        border-radius: 12px;
+        background: $grey-50;
+        box-shadow: $shadow-2;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &.first {
+        }
+
+        &.second {
+        }
+
+        &.third {
+        }
+    }
+
+    .card__header {
+        min-height: 160px;
+        color: $white;
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    .card__header--blue {
+        background: $blue-400;
+    }
+
+    .card__header--green {
+        background: $green-300;
+    }
+
+    .card__title {
+        text-align: center;
+    }
+
+    .card__label {
+        box-shadow: $shadow-1;
+        border-radius: 4px;
+        padding: 4px 8px;
+        width: fit-content;
+        text-transform: uppercase;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .card__label--gray {
+        background: #676781;
+    }
+
+    .card__label--violet {
+        background: #9a5dc6;
+    }
+
+    .card__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .card__info {
+        flex: 1 0 45%;
+        margin: 10px 0;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: $grey-700;
+
+        img {
+            padding-right: 15px;
+        }
+    }
+
+    .card__footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+
+        &:before {
+            content: "";
+            background: $grey-100;
+            width: 100%;
+            height: 1px;
+            display: inline-block;
+            position: relative;
+            top: -20px;
+        }
+    }
+
+    .card__price {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        color: $red-400;
+    }
+
+    .btn--secondary {
+        width: 200px;
+        height: 45px;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

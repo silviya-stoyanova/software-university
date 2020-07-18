@@ -1,0 +1,76 @@
+@import "../01-settings/settings-colors.scss";
+@import "../01-settings/settings-box-shadows.scss";
+@import "../02-tools/mixins.scss";
+
+.navbar {
+    box-shadow: $shadow-2;
+    padding: 25px;
+
+    .navbar__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-height: 75px;
+        margin: 0 auto;
+    }
+
+    .navbar__logo {
+        position: relative;
+        margin-left: 40px;
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: -30px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            border-left: solid 15px $orange-800;
+            border-top: solid 11px transparent;
+            border-bottom: solid 11px transparent;
+        }
+    }
+
+    .navbar__items {
+        display: flex;
+    }
+
+    .navbar__item {
+        display: none;
+        align-items: center;
+        margin: 0 25px;
+
+        @include for-desktop-up {
+            display: flex;
+        }
+
+        &.navbar__item--search-icon,
+        &.login-btn-wrapper {
+            display: flex;
+        }
+
+        a {
+            color: $grey-700;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            &:hover {
+                cursor: pointer;
+                color: $orange-800;
+            }
+        }
+    }
+
+    .navbar__item--search-icon {
+        margin: 0 0 0 10px;
+    }
+
+    .login-btn-wrapper {
+        margin-left: 20px;
+    }
+
+    .btn--login {
+        width: 80px;
+        height: 35px;
+    }
+}

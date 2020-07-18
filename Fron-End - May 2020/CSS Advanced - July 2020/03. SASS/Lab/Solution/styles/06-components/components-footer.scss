@@ -1,0 +1,127 @@
+@import "../01-settings/settings-colors.scss";
+@import "../01-settings/settings-box-shadows.scss";
+@import "../02-tools/mixins.scss";
+
+.footer {
+  min-height: 325px;
+  background-color: $grey-700;
+  border-top: 12px solid $grey-500;
+
+  .footer-image-and-list-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .footer-image-container {
+    width: 220px;
+    height: 310px;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.1;
+
+    @include for-desktop-up {
+      position: relative;
+      opacity: 1;
+      height: auto;
+    }
+  }
+
+  .footer-image {
+    position: absolute;
+    bottom: 0;
+    max-height: 100%;
+
+    @include for-desktop-up {
+      max-height: 150%;
+    }
+  }
+
+  .footer-list {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 45px 0;
+  }
+
+  .footer-list-item {
+    flex: 1 0 10%;
+    padding: 0 30px;
+
+    a {
+      font-weight: normal;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    &.kids {
+      flex: 1;
+
+      .footer-inner-list-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .footer-inner-list-item {
+        padding-right: 25px;
+      }
+    }
+
+    @include for-desktop-up {
+      &:first-child {
+        padding-left: 50px;
+      }
+
+      &.kids {
+        flex: 1 0 25%;
+      }
+    }
+  }
+
+  .footer-inner-list {
+  }
+
+  .footer-list-item-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: $white;
+    padding-bottom: 15px;
+  }
+
+  .footer-inner-list-item {
+    padding-bottom: 10px;
+
+    a {
+      font-size: 16px;
+      line-height: 19px;
+      color: $grey-200;
+
+      &:hover {
+        color: $green-300;
+      }
+    }
+  }
+
+  .social-media-list {
+    display: grid;
+    grid-template-columns: repeat(2, 29px);
+    grid-template-rows: 28px;
+    gap: 30px;
+    padding-top: 10px;
+
+    a {
+      font-size: 27px;
+    }
+  }
+
+  .all-rights-reserved {
+    line-height: 19px;
+    padding-top: 50px;
+    color: $grey-500;
+  }
+}

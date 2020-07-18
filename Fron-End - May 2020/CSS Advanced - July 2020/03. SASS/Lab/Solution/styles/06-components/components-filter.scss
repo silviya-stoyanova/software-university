@@ -1,0 +1,65 @@
+@import "../01-settings/settings-colors.scss";
+@import "../02-tools/mixins.scss";
+
+.filter--wrapper {
+    background: $grey-50;
+}
+
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.filter__title {
+    color: $grey-700;
+}
+
+.filter__labels_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.filter__label {
+    flex: 1 1 auto;
+    display: inline-block;
+
+    &:not(:last-child) {
+        padding-right: 30px;
+    }
+}
+
+.filter__label__img {
+    position: relative;
+    top: 5px;
+    right: 15px;
+    width: 30px;
+}
+
+.filter__label__img--info {
+    left: 10px;
+}
+
+.filter__label::after {
+    content: "";
+    background: url(../../assets/icons/arrow.svg) center no-repeat;
+    width: 12px;
+    height: 8px;
+    display: inline-block;
+    position: relative;
+    right: 30px;
+}
+
+.filter__label--level::after {
+    content: "";
+    background: url(../../assets/icons/arrow.svg) center no-repeat;
+    width: 12px;
+    height: 8px;
+    display: inline-block;
+    position: relative;
+    right: 50px;
+}

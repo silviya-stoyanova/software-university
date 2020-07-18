@@ -1,0 +1,101 @@
+/* Shadow 0dp */
+/* Shadow 1dp */
+/* Shadow 2dp */
+/* Shadow 3dp */
+/* Shadow 4dp */
+/* Shadow 6dp */
+/* Shadow 8dp */
+/* Shadow 9dp */
+/* Shadow 12dp */
+/* Shadow 16dp */
+/* Shadow 24dp */
+.navbar {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 25px;
+}
+
+.navbar .navbar__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: 75px;
+  margin: 0 auto;
+}
+
+.navbar .navbar__logo {
+  position: relative;
+  margin-left: 40px;
+}
+
+.navbar .navbar__logo:before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer;
+  border-left: solid 15px #FF9100;
+  border-top: solid 11px transparent;
+  border-bottom: solid 11px transparent;
+}
+
+.navbar .navbar__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .navbar__item {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 25px;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar .navbar__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.navbar .navbar__item.navbar__item--search-icon, .navbar .navbar__item.login-btn-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .navbar__item a {
+  color: #565656;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbar .navbar__item a:hover {
+  cursor: pointer;
+  color: #FF9100;
+}
+
+.navbar .navbar__item--search-icon {
+  margin: 0 0 0 10px;
+}
+
+.navbar .login-btn-wrapper {
+  margin-left: 20px;
+}
+
+.navbar .btn--login {
+  width: 80px;
+  height: 35px;
+}
+/*# sourceMappingURL=components-navigation.css.map */
