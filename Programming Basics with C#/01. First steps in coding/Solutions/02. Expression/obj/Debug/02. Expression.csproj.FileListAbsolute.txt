@@ -1,0 +1,7 @@
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\02. Expression\bin\Debug\_02.Expression.exe.config
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\02. Expression\bin\Debug\_02.Expression.exe
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\02. Expression\bin\Debug\_02.Expression.pdb
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\02. Expression\obj\Debug\02. Expression.csprojAssemblyReference.cache
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\02. Expression\obj\Debug\02. Expression.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\02. Expression\obj\Debug\_02.Expression.exe
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\02. Expression\obj\Debug\_02.Expression.pdb

@@ -1,0 +1,7 @@
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\03. Nums from 1 to 10\bin\Debug\_03.Nums_from_1_to_10.exe.config
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\03. Nums from 1 to 10\bin\Debug\_03.Nums_from_1_to_10.exe
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\03. Nums from 1 to 10\bin\Debug\_03.Nums_from_1_to_10.pdb
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\03. Nums from 1 to 10\obj\Debug\03. Nums from 1 to 10.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\03. Nums from 1 to 10\obj\Debug\_03.Nums_from_1_to_10.exe
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\03. Nums from 1 to 10\obj\Debug\_03.Nums_from_1_to_10.pdb
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\03. Nums from 1 to 10\obj\Debug\03. Nums from 1 to 10.csprojAssemblyReference.cache

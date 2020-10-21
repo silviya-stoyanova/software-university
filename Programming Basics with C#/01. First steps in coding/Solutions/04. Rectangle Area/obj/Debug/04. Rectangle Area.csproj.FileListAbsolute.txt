@@ -1,0 +1,6 @@
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\04. Rectangle Area\bin\Debug\_04.Rectangle_Area.exe.config
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\04. Rectangle Area\bin\Debug\_04.Rectangle_Area.exe
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\04. Rectangle Area\bin\Debug\_04.Rectangle_Area.pdb
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\04. Rectangle Area\obj\Debug\04. Rectangle Area.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\04. Rectangle Area\obj\Debug\_04.Rectangle_Area.exe
+D:\software-university\Programming Basics with C#\01. First steps in coding\Solutions\04. Rectangle Area\obj\Debug\_04.Rectangle_Area.pdb
