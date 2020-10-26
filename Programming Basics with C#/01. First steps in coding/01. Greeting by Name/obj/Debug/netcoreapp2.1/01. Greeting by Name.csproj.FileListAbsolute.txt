@@ -1,0 +1,11 @@
+D:\software-university\Programming Basics with C#\01. First steps in coding\01. Greeting by Name\bin\Debug\netcoreapp2.1\01. Greeting by Name.deps.json
+D:\software-university\Programming Basics with C#\01. First steps in coding\01. Greeting by Name\bin\Debug\netcoreapp2.1\01. Greeting by Name.runtimeconfig.json
+D:\software-university\Programming Basics with C#\01. First steps in coding\01. Greeting by Name\bin\Debug\netcoreapp2.1\01. Greeting by Name.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\01. First steps in coding\01. Greeting by Name\bin\Debug\netcoreapp2.1\01. Greeting by Name.dll
+D:\software-university\Programming Basics with C#\01. First steps in coding\01. Greeting by Name\bin\Debug\netcoreapp2.1\01. Greeting by Name.pdb
+D:\software-university\Programming Basics with C#\01. First steps in coding\01. Greeting by Name\obj\Debug\netcoreapp2.1\01. Greeting by Name.csprojAssemblyReference.cache
+D:\software-university\Programming Basics with C#\01. First steps in coding\01. Greeting by Name\obj\Debug\netcoreapp2.1\01. Greeting by Name.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\01. First steps in coding\01. Greeting by Name\obj\Debug\netcoreapp2.1\01. Greeting by Name.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\01. First steps in coding\01. Greeting by Name\obj\Debug\netcoreapp2.1\01. Greeting by Name.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\01. First steps in coding\01. Greeting by Name\obj\Debug\netcoreapp2.1\01. Greeting by Name.dll
+D:\software-university\Programming Basics with C#\01. First steps in coding\01. Greeting by Name\obj\Debug\netcoreapp2.1\01. Greeting by Name.pdb
