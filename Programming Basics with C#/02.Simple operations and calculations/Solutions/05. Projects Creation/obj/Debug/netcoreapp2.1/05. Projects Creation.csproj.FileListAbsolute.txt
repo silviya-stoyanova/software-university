@@ -1,0 +1,10 @@
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\05. Projects Creation\bin\Debug\netcoreapp2.1\05. Projects Creation.deps.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\05. Projects Creation\bin\Debug\netcoreapp2.1\05. Projects Creation.runtimeconfig.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\05. Projects Creation\bin\Debug\netcoreapp2.1\05. Projects Creation.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\05. Projects Creation\bin\Debug\netcoreapp2.1\05. Projects Creation.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\05. Projects Creation\bin\Debug\netcoreapp2.1\05. Projects Creation.pdb
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\05. Projects Creation\obj\Debug\netcoreapp2.1\05. Projects Creation.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\05. Projects Creation\obj\Debug\netcoreapp2.1\05. Projects Creation.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\05. Projects Creation\obj\Debug\netcoreapp2.1\05. Projects Creation.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\05. Projects Creation\obj\Debug\netcoreapp2.1\05. Projects Creation.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\05. Projects Creation\obj\Debug\netcoreapp2.1\05. Projects Creation.pdb

@@ -1,0 +1,10 @@
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\06. Pet Shop\bin\Debug\netcoreapp2.1\06. Pet Shop.deps.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\06. Pet Shop\bin\Debug\netcoreapp2.1\06. Pet Shop.runtimeconfig.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\06. Pet Shop\bin\Debug\netcoreapp2.1\06. Pet Shop.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\06. Pet Shop\bin\Debug\netcoreapp2.1\06. Pet Shop.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\06. Pet Shop\bin\Debug\netcoreapp2.1\06. Pet Shop.pdb
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\06. Pet Shop\obj\Debug\netcoreapp2.1\06. Pet Shop.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\06. Pet Shop\obj\Debug\netcoreapp2.1\06. Pet Shop.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\06. Pet Shop\obj\Debug\netcoreapp2.1\06. Pet Shop.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\06. Pet Shop\obj\Debug\netcoreapp2.1\06. Pet Shop.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\06. Pet Shop\obj\Debug\netcoreapp2.1\06. Pet Shop.pdb

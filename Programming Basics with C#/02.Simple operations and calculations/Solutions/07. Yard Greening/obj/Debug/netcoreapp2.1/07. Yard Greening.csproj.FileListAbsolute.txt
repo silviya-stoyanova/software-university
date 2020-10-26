@@ -1,0 +1,10 @@
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\07. Yard Greening\bin\Debug\netcoreapp2.1\07. Yard Greening.deps.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\07. Yard Greening\bin\Debug\netcoreapp2.1\07. Yard Greening.runtimeconfig.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\07. Yard Greening\bin\Debug\netcoreapp2.1\07. Yard Greening.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\07. Yard Greening\bin\Debug\netcoreapp2.1\07. Yard Greening.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\07. Yard Greening\bin\Debug\netcoreapp2.1\07. Yard Greening.pdb
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\07. Yard Greening\obj\Debug\netcoreapp2.1\07. Yard Greening.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\07. Yard Greening\obj\Debug\netcoreapp2.1\07. Yard Greening.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\07. Yard Greening\obj\Debug\netcoreapp2.1\07. Yard Greening.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\07. Yard Greening\obj\Debug\netcoreapp2.1\07. Yard Greening.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\07. Yard Greening\obj\Debug\netcoreapp2.1\07. Yard Greening.pdb

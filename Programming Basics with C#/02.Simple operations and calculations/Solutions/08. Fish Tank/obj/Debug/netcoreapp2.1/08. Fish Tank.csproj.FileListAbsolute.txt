@@ -1,0 +1,11 @@
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\08. Fish Tank\bin\Debug\netcoreapp2.1\08. Fish Tank.deps.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\08. Fish Tank\bin\Debug\netcoreapp2.1\08. Fish Tank.runtimeconfig.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\08. Fish Tank\bin\Debug\netcoreapp2.1\08. Fish Tank.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\08. Fish Tank\bin\Debug\netcoreapp2.1\08. Fish Tank.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\08. Fish Tank\bin\Debug\netcoreapp2.1\08. Fish Tank.pdb
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\08. Fish Tank\obj\Debug\netcoreapp2.1\08. Fish Tank.csprojAssemblyReference.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\08. Fish Tank\obj\Debug\netcoreapp2.1\08. Fish Tank.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\08. Fish Tank\obj\Debug\netcoreapp2.1\08. Fish Tank.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\08. Fish Tank\obj\Debug\netcoreapp2.1\08. Fish Tank.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\08. Fish Tank\obj\Debug\netcoreapp2.1\08. Fish Tank.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\08. Fish Tank\obj\Debug\netcoreapp2.1\08. Fish Tank.pdb

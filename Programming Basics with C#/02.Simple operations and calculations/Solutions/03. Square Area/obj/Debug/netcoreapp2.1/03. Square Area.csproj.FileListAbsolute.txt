@@ -1,0 +1,11 @@
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\03. Square Area\bin\Debug\netcoreapp2.1\03. Square Area.deps.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\03. Square Area\bin\Debug\netcoreapp2.1\03. Square Area.runtimeconfig.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\03. Square Area\bin\Debug\netcoreapp2.1\03. Square Area.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\03. Square Area\bin\Debug\netcoreapp2.1\03. Square Area.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\03. Square Area\bin\Debug\netcoreapp2.1\03. Square Area.pdb
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\03. Square Area\obj\Debug\netcoreapp2.1\03. Square Area.csprojAssemblyReference.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\03. Square Area\obj\Debug\netcoreapp2.1\03. Square Area.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\03. Square Area\obj\Debug\netcoreapp2.1\03. Square Area.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\03. Square Area\obj\Debug\netcoreapp2.1\03. Square Area.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\03. Square Area\obj\Debug\netcoreapp2.1\03. Square Area.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\03. Square Area\obj\Debug\netcoreapp2.1\03. Square Area.pdb
