@@ -1,0 +1,10 @@
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\05. Dance Hall\bin\Debug\netcoreapp2.1\05. Dance Hall.deps.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\05. Dance Hall\bin\Debug\netcoreapp2.1\05. Dance Hall.runtimeconfig.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\05. Dance Hall\bin\Debug\netcoreapp2.1\05. Dance Hall.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\05. Dance Hall\bin\Debug\netcoreapp2.1\05. Dance Hall.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\05. Dance Hall\bin\Debug\netcoreapp2.1\05. Dance Hall.pdb
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\05. Dance Hall\obj\Debug\netcoreapp2.1\05. Dance Hall.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\05. Dance Hall\obj\Debug\netcoreapp2.1\05. Dance Hall.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\05. Dance Hall\obj\Debug\netcoreapp2.1\05. Dance Hall.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\05. Dance Hall\obj\Debug\netcoreapp2.1\05. Dance Hall.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\05. Dance Hall\obj\Debug\netcoreapp2.1\05. Dance Hall.pdb

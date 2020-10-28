@@ -1,0 +1,11 @@
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\04. Tailoring Workshop\bin\Debug\netcoreapp2.1\04. Tailoring Workshop.deps.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\04. Tailoring Workshop\bin\Debug\netcoreapp2.1\04. Tailoring Workshop.runtimeconfig.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\04. Tailoring Workshop\bin\Debug\netcoreapp2.1\04. Tailoring Workshop.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\04. Tailoring Workshop\bin\Debug\netcoreapp2.1\04. Tailoring Workshop.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\04. Tailoring Workshop\bin\Debug\netcoreapp2.1\04. Tailoring Workshop.pdb
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\04. Tailoring Workshop\obj\Debug\netcoreapp2.1\04. Tailoring Workshop.csprojAssemblyReference.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\04. Tailoring Workshop\obj\Debug\netcoreapp2.1\04. Tailoring Workshop.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\04. Tailoring Workshop\obj\Debug\netcoreapp2.1\04. Tailoring Workshop.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\04. Tailoring Workshop\obj\Debug\netcoreapp2.1\04. Tailoring Workshop.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\04. Tailoring Workshop\obj\Debug\netcoreapp2.1\04. Tailoring Workshop.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\04. Tailoring Workshop\obj\Debug\netcoreapp2.1\04. Tailoring Workshop.pdb

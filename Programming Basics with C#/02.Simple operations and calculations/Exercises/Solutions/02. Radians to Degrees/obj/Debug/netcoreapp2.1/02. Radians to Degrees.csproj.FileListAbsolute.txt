@@ -1,0 +1,10 @@
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\02. Radians to Degrees\bin\Debug\netcoreapp2.1\02. Radians to Degrees.deps.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\02. Radians to Degrees\bin\Debug\netcoreapp2.1\02. Radians to Degrees.runtimeconfig.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\02. Radians to Degrees\bin\Debug\netcoreapp2.1\02. Radians to Degrees.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\02. Radians to Degrees\bin\Debug\netcoreapp2.1\02. Radians to Degrees.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\02. Radians to Degrees\bin\Debug\netcoreapp2.1\02. Radians to Degrees.pdb
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\02. Radians to Degrees\obj\Debug\netcoreapp2.1\02. Radians to Degrees.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\02. Radians to Degrees\obj\Debug\netcoreapp2.1\02. Radians to Degrees.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\02. Radians to Degrees\obj\Debug\netcoreapp2.1\02. Radians to Degrees.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\02. Radians to Degrees\obj\Debug\netcoreapp2.1\02. Radians to Degrees.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\02. Radians to Degrees\obj\Debug\netcoreapp2.1\02. Radians to Degrees.pdb

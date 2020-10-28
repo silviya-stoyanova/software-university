@@ -1,0 +1,11 @@
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\03. 2D Rectangle Area\bin\Debug\netcoreapp2.1\03. 2D Rectangle Area.deps.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\03. 2D Rectangle Area\bin\Debug\netcoreapp2.1\03. 2D Rectangle Area.runtimeconfig.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\03. 2D Rectangle Area\bin\Debug\netcoreapp2.1\03. 2D Rectangle Area.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\03. 2D Rectangle Area\bin\Debug\netcoreapp2.1\03. 2D Rectangle Area.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\03. 2D Rectangle Area\bin\Debug\netcoreapp2.1\03. 2D Rectangle Area.pdb
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\03. 2D Rectangle Area\obj\Debug\netcoreapp2.1\03. 2D Rectangle Area.csprojAssemblyReference.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\03. 2D Rectangle Area\obj\Debug\netcoreapp2.1\03. 2D Rectangle Area.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\03. 2D Rectangle Area\obj\Debug\netcoreapp2.1\03. 2D Rectangle Area.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\03. 2D Rectangle Area\obj\Debug\netcoreapp2.1\03. 2D Rectangle Area.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\03. 2D Rectangle Area\obj\Debug\netcoreapp2.1\03. 2D Rectangle Area.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\03. 2D Rectangle Area\obj\Debug\netcoreapp2.1\03. 2D Rectangle Area.pdb

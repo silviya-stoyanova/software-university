@@ -1,0 +1,11 @@
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\06. Charity Campaign\bin\Debug\netcoreapp2.1\06. Charity Campaign.deps.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\06. Charity Campaign\bin\Debug\netcoreapp2.1\06. Charity Campaign.runtimeconfig.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\06. Charity Campaign\bin\Debug\netcoreapp2.1\06. Charity Campaign.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\06. Charity Campaign\bin\Debug\netcoreapp2.1\06. Charity Campaign.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\06. Charity Campaign\bin\Debug\netcoreapp2.1\06. Charity Campaign.pdb
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\06. Charity Campaign\obj\Debug\netcoreapp2.1\06. Charity Campaign.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\06. Charity Campaign\obj\Debug\netcoreapp2.1\06. Charity Campaign.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\06. Charity Campaign\obj\Debug\netcoreapp2.1\06. Charity Campaign.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\06. Charity Campaign\obj\Debug\netcoreapp2.1\06. Charity Campaign.dll
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\06. Charity Campaign\obj\Debug\netcoreapp2.1\06. Charity Campaign.pdb
+D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Exercises\Solutions\06. Charity Campaign\obj\Debug\netcoreapp2.1\06. Charity Campaign.csprojAssemblyReference.cache
