@@ -14,7 +14,7 @@ namespace _01._USD_to_BGN
         {
             string usdStr = Console.ReadLine();
             double usd = double.Parse(usdStr);
-            convertUsdToBn(usd);
+            ConvertUsdToBn(usd);
         }
     }
 }

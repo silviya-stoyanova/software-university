@@ -15,7 +15,7 @@ namespace _02._Radians_to_Degrees
         {
             string radiansStr = Console.ReadLine();
             double radians = double.Parse(radiansStr);
-            convertRadiansToDegrees(radians);
+            ConvertRadiansToDegrees(radians);
         }
     }
 }
