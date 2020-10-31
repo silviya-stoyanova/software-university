@@ -1,0 +1,11 @@
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\05. Time + 15 Minutes\bin\Debug\netcoreapp2.1\05. Time + 15 Minutes.deps.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\05. Time + 15 Minutes\bin\Debug\netcoreapp2.1\05. Time + 15 Minutes.runtimeconfig.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\05. Time + 15 Minutes\bin\Debug\netcoreapp2.1\05. Time + 15 Minutes.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\05. Time + 15 Minutes\bin\Debug\netcoreapp2.1\05. Time + 15 Minutes.dll
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\05. Time + 15 Minutes\bin\Debug\netcoreapp2.1\05. Time + 15 Minutes.pdb
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\05. Time + 15 Minutes\obj\Debug\netcoreapp2.1\05. Time + 15 Minutes.csprojAssemblyReference.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\05. Time + 15 Minutes\obj\Debug\netcoreapp2.1\05. Time + 15 Minutes.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\05. Time + 15 Minutes\obj\Debug\netcoreapp2.1\05. Time + 15 Minutes.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\05. Time + 15 Minutes\obj\Debug\netcoreapp2.1\05. Time + 15 Minutes.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\05. Time + 15 Minutes\obj\Debug\netcoreapp2.1\05. Time + 15 Minutes.dll
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\05. Time + 15 Minutes\obj\Debug\netcoreapp2.1\05. Time + 15 Minutes.pdb

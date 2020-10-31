@@ -8,3 +8,4 @@ D:\software-university\Programming Basics with C#\03. Conditional Statements\Exe
 D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\04. Metric Converter\obj\Debug\netcoreapp2.1\04. Metric Converter.AssemblyInfo.cs
 D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\04. Metric Converter\obj\Debug\netcoreapp2.1\04. Metric Converter.dll
 D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\04. Metric Converter\obj\Debug\netcoreapp2.1\04. Metric Converter.pdb
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\04. Metric Converter\obj\Debug\netcoreapp2.1\04. Metric Converter.csprojAssemblyReference.cache

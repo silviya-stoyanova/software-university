@@ -6,29 +6,35 @@ namespace _04._Metric_Converter
     {
         static void Main(string[] args)
         {
-            string speedStr = Console.ReadLine();
-            double speed = double.Parse(speedStr);
+            string numberStr = Console.ReadLine();
+            string inputUnit = Console.ReadLine();
+            string outputUnit = Console.ReadLine();
 
-            if (speed <= 10)
+            double number = double.Parse(numberStr);
+
+            double numInCm = number;
+
+            if (inputUnit == "mm")
             {
-                Console.WriteLine("slow");
+                numInCm = number / 10.0;
             }
-            else if (speed <= 50)
+            else if (inputUnit == "m")
             {
-                Console.WriteLine("average");
+                numInCm = number * 100;
             }
-            else if (speed <= 150)
+
+            double outputNum = numInCm;
+
+            if (outputUnit == "mm")
             {
-                Console.WriteLine("fast");
+                outputNum = numInCm * 10;
             }
-            else if (speed <= 1000)
+            else if (outputUnit == "m")
             {
-                Console.WriteLine("ultra fast");
+                outputNum = numInCm / 100.0;
             }
-            else
-            {
-                Console.WriteLine("extremely fast");
-            }
+
+            Console.WriteLine($"{outputNum:f3}");
         }
     }
 }
