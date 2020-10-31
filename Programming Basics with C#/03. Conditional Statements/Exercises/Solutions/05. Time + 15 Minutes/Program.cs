@@ -6,7 +6,11 @@ namespace _05._Time___15_Minutes
     {
         static void Main(string[] args)
         {
-            
+            string hoursStr = Console.ReadLine();
+            string minutesStr = Console.ReadLine();
+
+            int hours = int.Parse(hoursStr);
+            int minutes = int.Parse(minutesStr);
         }
     }
 }
