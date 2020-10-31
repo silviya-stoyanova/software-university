@@ -1,0 +1,10 @@
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\04. Metric Converter\bin\Debug\netcoreapp2.1\04. Metric Converter.deps.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\04. Metric Converter\bin\Debug\netcoreapp2.1\04. Metric Converter.runtimeconfig.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\04. Metric Converter\bin\Debug\netcoreapp2.1\04. Metric Converter.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\04. Metric Converter\bin\Debug\netcoreapp2.1\04. Metric Converter.dll
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\04. Metric Converter\bin\Debug\netcoreapp2.1\04. Metric Converter.pdb
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\04. Metric Converter\obj\Debug\netcoreapp2.1\04. Metric Converter.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\04. Metric Converter\obj\Debug\netcoreapp2.1\04. Metric Converter.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\04. Metric Converter\obj\Debug\netcoreapp2.1\04. Metric Converter.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\04. Metric Converter\obj\Debug\netcoreapp2.1\04. Metric Converter.dll
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\04. Metric Converter\obj\Debug\netcoreapp2.1\04. Metric Converter.pdb

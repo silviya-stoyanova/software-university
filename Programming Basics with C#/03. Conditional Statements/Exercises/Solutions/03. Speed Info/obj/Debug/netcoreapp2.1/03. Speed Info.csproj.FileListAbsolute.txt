@@ -1,0 +1,10 @@
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\03. Speed Info\bin\Debug\netcoreapp2.1\03. Speed Info.deps.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\03. Speed Info\bin\Debug\netcoreapp2.1\03. Speed Info.runtimeconfig.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\03. Speed Info\bin\Debug\netcoreapp2.1\03. Speed Info.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\03. Speed Info\bin\Debug\netcoreapp2.1\03. Speed Info.dll
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\03. Speed Info\bin\Debug\netcoreapp2.1\03. Speed Info.pdb
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\03. Speed Info\obj\Debug\netcoreapp2.1\03. Speed Info.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\03. Speed Info\obj\Debug\netcoreapp2.1\03. Speed Info.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\03. Speed Info\obj\Debug\netcoreapp2.1\03. Speed Info.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\03. Speed Info\obj\Debug\netcoreapp2.1\03. Speed Info.dll
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\03. Speed Info\obj\Debug\netcoreapp2.1\03. Speed Info.pdb

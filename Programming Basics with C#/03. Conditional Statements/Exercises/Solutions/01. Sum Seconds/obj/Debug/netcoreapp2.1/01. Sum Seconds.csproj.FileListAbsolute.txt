@@ -1,0 +1,11 @@
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\01. Sum Seconds\bin\Debug\netcoreapp2.1\01. Sum Seconds.deps.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\01. Sum Seconds\bin\Debug\netcoreapp2.1\01. Sum Seconds.runtimeconfig.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\01. Sum Seconds\bin\Debug\netcoreapp2.1\01. Sum Seconds.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\01. Sum Seconds\bin\Debug\netcoreapp2.1\01. Sum Seconds.dll
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\01. Sum Seconds\bin\Debug\netcoreapp2.1\01. Sum Seconds.pdb
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\01. Sum Seconds\obj\Debug\netcoreapp2.1\01. Sum Seconds.csprojAssemblyReference.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\01. Sum Seconds\obj\Debug\netcoreapp2.1\01. Sum Seconds.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\01. Sum Seconds\obj\Debug\netcoreapp2.1\01. Sum Seconds.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\01. Sum Seconds\obj\Debug\netcoreapp2.1\01. Sum Seconds.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\01. Sum Seconds\obj\Debug\netcoreapp2.1\01. Sum Seconds.dll
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Exercises\Solutions\01. Sum Seconds\obj\Debug\netcoreapp2.1\01. Sum Seconds.pdb
