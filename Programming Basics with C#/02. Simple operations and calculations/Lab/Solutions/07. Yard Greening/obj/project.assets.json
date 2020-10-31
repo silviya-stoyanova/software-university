@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\software-university\\Programming Basics with C#\\02.Simple operations and calculations\\Solutions\\07. Yard Greening\\07. Yard Greening.csproj",
+      "projectUniqueName": "D:\\software-university\\Programming Basics with C#\\02. Simple operations and calculations\\Lab\\Solutions\\07. Yard Greening\\07. Yard Greening.csproj",
       "projectName": "07. Yard Greening",
-      "projectPath": "D:\\software-university\\Programming Basics with C#\\02.Simple operations and calculations\\Solutions\\07. Yard Greening\\07. Yard Greening.csproj",
+      "projectPath": "D:\\software-university\\Programming Basics with C#\\02. Simple operations and calculations\\Lab\\Solutions\\07. Yard Greening\\07. Yard Greening.csproj",
       "packagesPath": "C:\\Users\\SILVIq\\.nuget\\packages\\",
-      "outputPath": "D:\\software-university\\Programming Basics with C#\\02.Simple operations and calculations\\Solutions\\07. Yard Greening\\obj\\",
+      "outputPath": "D:\\software-university\\Programming Basics with C#\\02. Simple operations and calculations\\Lab\\Solutions\\07. Yard Greening\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

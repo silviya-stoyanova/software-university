@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\software-university\\Programming Basics with C#\\02.Simple operations and calculations\\Solutions\\06. Pet Shop\\06. Pet Shop.csproj",
+      "projectUniqueName": "D:\\software-university\\Programming Basics with C#\\02. Simple operations and calculations\\Lab\\Solutions\\06. Pet Shop\\06. Pet Shop.csproj",
       "projectName": "06. Pet Shop",
-      "projectPath": "D:\\software-university\\Programming Basics with C#\\02.Simple operations and calculations\\Solutions\\06. Pet Shop\\06. Pet Shop.csproj",
+      "projectPath": "D:\\software-university\\Programming Basics with C#\\02. Simple operations and calculations\\Lab\\Solutions\\06. Pet Shop\\06. Pet Shop.csproj",
       "packagesPath": "C:\\Users\\SILVIq\\.nuget\\packages\\",
-      "outputPath": "D:\\software-university\\Programming Basics with C#\\02.Simple operations and calculations\\Solutions\\06. Pet Shop\\obj\\",
+      "outputPath": "D:\\software-university\\Programming Basics with C#\\02. Simple operations and calculations\\Lab\\Solutions\\06. Pet Shop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

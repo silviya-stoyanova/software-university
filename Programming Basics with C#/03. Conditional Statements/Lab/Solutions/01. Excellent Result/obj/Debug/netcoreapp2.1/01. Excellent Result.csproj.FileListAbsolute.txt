@@ -1,0 +1,11 @@
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\01. Excellent Result\bin\Debug\netcoreapp2.1\01. Excellent Result.deps.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\01. Excellent Result\bin\Debug\netcoreapp2.1\01. Excellent Result.runtimeconfig.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\01. Excellent Result\bin\Debug\netcoreapp2.1\01. Excellent Result.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\01. Excellent Result\bin\Debug\netcoreapp2.1\01. Excellent Result.dll
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\01. Excellent Result\bin\Debug\netcoreapp2.1\01. Excellent Result.pdb
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\01. Excellent Result\obj\Debug\netcoreapp2.1\01. Excellent Result.csprojAssemblyReference.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\01. Excellent Result\obj\Debug\netcoreapp2.1\01. Excellent Result.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\01. Excellent Result\obj\Debug\netcoreapp2.1\01. Excellent Result.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\01. Excellent Result\obj\Debug\netcoreapp2.1\01. Excellent Result.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\01. Excellent Result\obj\Debug\netcoreapp2.1\01. Excellent Result.dll
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\01. Excellent Result\obj\Debug\netcoreapp2.1\01. Excellent Result.pdb

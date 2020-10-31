@@ -1,0 +1,10 @@
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\02. Greater Number\bin\Debug\netcoreapp2.1\02. Greater Number.deps.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\02. Greater Number\bin\Debug\netcoreapp2.1\02. Greater Number.runtimeconfig.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\02. Greater Number\bin\Debug\netcoreapp2.1\02. Greater Number.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\02. Greater Number\bin\Debug\netcoreapp2.1\02. Greater Number.dll
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\02. Greater Number\bin\Debug\netcoreapp2.1\02. Greater Number.pdb
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\02. Greater Number\obj\Debug\netcoreapp2.1\02. Greater Number.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\02. Greater Number\obj\Debug\netcoreapp2.1\02. Greater Number.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\02. Greater Number\obj\Debug\netcoreapp2.1\02. Greater Number.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\02. Greater Number\obj\Debug\netcoreapp2.1\02. Greater Number.dll
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\02. Greater Number\obj\Debug\netcoreapp2.1\02. Greater Number.pdb

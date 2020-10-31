@@ -1,0 +1,11 @@
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\07. Area of Figures\obj\Debug\netcoreapp2.1\07. Area of Figures.csprojAssemblyReference.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\07. Area of Figures\obj\Debug\netcoreapp2.1\07. Area of Figures.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\07. Area of Figures\obj\Debug\netcoreapp2.1\07. Area of Figures.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\07. Area of Figures\obj\Debug\netcoreapp2.1\07. Area of Figures.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\07. Area of Figures\bin\Debug\netcoreapp2.1\07. Area of Figures.deps.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\07. Area of Figures\bin\Debug\netcoreapp2.1\07. Area of Figures.runtimeconfig.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\07. Area of Figures\bin\Debug\netcoreapp2.1\07. Area of Figures.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\07. Area of Figures\bin\Debug\netcoreapp2.1\07. Area of Figures.dll
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\07. Area of Figures\bin\Debug\netcoreapp2.1\07. Area of Figures.pdb
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\07. Area of Figures\obj\Debug\netcoreapp2.1\07. Area of Figures.dll
+D:\software-university\Programming Basics with C#\03. Conditional Statements\Lab\Solutions\07. Area of Figures\obj\Debug\netcoreapp2.1\07. Area of Figures.pdb

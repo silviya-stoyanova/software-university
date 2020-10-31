@@ -8,3 +8,14 @@ D:\software-university\Programming Basics with C#\02.Simple operations and calcu
 D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\04. Inches to Centimeters\obj\Debug\netcoreapp2.1\04. Inches to Centimeters.AssemblyInfo.cs
 D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\04. Inches to Centimeters\obj\Debug\netcoreapp2.1\04. Inches to Centimeters.dll
 D:\software-university\Programming Basics with C#\02.Simple operations and calculations\Solutions\04. Inches to Centimeters\obj\Debug\netcoreapp2.1\04. Inches to Centimeters.pdb
+D:\software-university\Programming Basics with C#\02. Simple operations and calculations\Lab\Solutions\04. Inches to Centimeters\bin\Debug\netcoreapp2.1\04. Inches to Centimeters.deps.json
+D:\software-university\Programming Basics with C#\02. Simple operations and calculations\Lab\Solutions\04. Inches to Centimeters\bin\Debug\netcoreapp2.1\04. Inches to Centimeters.runtimeconfig.json
+D:\software-university\Programming Basics with C#\02. Simple operations and calculations\Lab\Solutions\04. Inches to Centimeters\bin\Debug\netcoreapp2.1\04. Inches to Centimeters.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\02. Simple operations and calculations\Lab\Solutions\04. Inches to Centimeters\bin\Debug\netcoreapp2.1\04. Inches to Centimeters.dll
+D:\software-university\Programming Basics with C#\02. Simple operations and calculations\Lab\Solutions\04. Inches to Centimeters\bin\Debug\netcoreapp2.1\04. Inches to Centimeters.pdb
+D:\software-university\Programming Basics with C#\02. Simple operations and calculations\Lab\Solutions\04. Inches to Centimeters\obj\Debug\netcoreapp2.1\04. Inches to Centimeters.csprojAssemblyReference.cache
+D:\software-university\Programming Basics with C#\02. Simple operations and calculations\Lab\Solutions\04. Inches to Centimeters\obj\Debug\netcoreapp2.1\04. Inches to Centimeters.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\02. Simple operations and calculations\Lab\Solutions\04. Inches to Centimeters\obj\Debug\netcoreapp2.1\04. Inches to Centimeters.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\02. Simple operations and calculations\Lab\Solutions\04. Inches to Centimeters\obj\Debug\netcoreapp2.1\04. Inches to Centimeters.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\02. Simple operations and calculations\Lab\Solutions\04. Inches to Centimeters\obj\Debug\netcoreapp2.1\04. Inches to Centimeters.dll
+D:\software-university\Programming Basics with C#\02. Simple operations and calculations\Lab\Solutions\04. Inches to Centimeters\obj\Debug\netcoreapp2.1\04. Inches to Centimeters.pdb
