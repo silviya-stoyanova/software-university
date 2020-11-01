@@ -1,0 +1,10 @@
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\10. Odd Even Sum\bin\Debug\netcoreapp2.1\10. Odd Even Sum.deps.json
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\10. Odd Even Sum\bin\Debug\netcoreapp2.1\10. Odd Even Sum.runtimeconfig.json
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\10. Odd Even Sum\bin\Debug\netcoreapp2.1\10. Odd Even Sum.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\10. Odd Even Sum\bin\Debug\netcoreapp2.1\10. Odd Even Sum.dll
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\10. Odd Even Sum\bin\Debug\netcoreapp2.1\10. Odd Even Sum.pdb
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\10. Odd Even Sum\obj\Debug\netcoreapp2.1\10. Odd Even Sum.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\10. Odd Even Sum\obj\Debug\netcoreapp2.1\10. Odd Even Sum.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\10. Odd Even Sum\obj\Debug\netcoreapp2.1\10. Odd Even Sum.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\10. Odd Even Sum\obj\Debug\netcoreapp2.1\10. Odd Even Sum.dll
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\10. Odd Even Sum\obj\Debug\netcoreapp2.1\10. Odd Even Sum.pdb

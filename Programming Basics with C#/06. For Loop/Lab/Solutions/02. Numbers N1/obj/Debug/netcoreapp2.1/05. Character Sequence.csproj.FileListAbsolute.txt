@@ -1,0 +1,11 @@
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\bin\Debug\netcoreapp2.1\05. Character Sequence.deps.json
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\bin\Debug\netcoreapp2.1\05. Character Sequence.runtimeconfig.json
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\bin\Debug\netcoreapp2.1\05. Character Sequence.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\bin\Debug\netcoreapp2.1\05. Character Sequence.dll
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\bin\Debug\netcoreapp2.1\05. Character Sequence.pdb
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\obj\Debug\netcoreapp2.1\05. Character Sequence.csprojAssemblyReference.cache
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\obj\Debug\netcoreapp2.1\05. Character Sequence.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\obj\Debug\netcoreapp2.1\05. Character Sequence.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\obj\Debug\netcoreapp2.1\05. Character Sequence.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\obj\Debug\netcoreapp2.1\05. Character Sequence.dll
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\obj\Debug\netcoreapp2.1\05. Character Sequence.pdb

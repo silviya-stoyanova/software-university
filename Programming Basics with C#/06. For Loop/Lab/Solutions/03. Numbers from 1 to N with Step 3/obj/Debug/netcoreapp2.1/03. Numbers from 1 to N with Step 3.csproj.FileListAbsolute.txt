@@ -1,0 +1,11 @@
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\03. Numbers from 1 to N with Step 3\bin\Debug\netcoreapp2.1\03. Numbers from 1 to N with Step 3.deps.json
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\03. Numbers from 1 to N with Step 3\bin\Debug\netcoreapp2.1\03. Numbers from 1 to N with Step 3.runtimeconfig.json
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\03. Numbers from 1 to N with Step 3\bin\Debug\netcoreapp2.1\03. Numbers from 1 to N with Step 3.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\03. Numbers from 1 to N with Step 3\bin\Debug\netcoreapp2.1\03. Numbers from 1 to N with Step 3.dll
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\03. Numbers from 1 to N with Step 3\bin\Debug\netcoreapp2.1\03. Numbers from 1 to N with Step 3.pdb
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\03. Numbers from 1 to N with Step 3\obj\Debug\netcoreapp2.1\03. Numbers from 1 to N with Step 3.csprojAssemblyReference.cache
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\03. Numbers from 1 to N with Step 3\obj\Debug\netcoreapp2.1\03. Numbers from 1 to N with Step 3.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\03. Numbers from 1 to N with Step 3\obj\Debug\netcoreapp2.1\03. Numbers from 1 to N with Step 3.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\03. Numbers from 1 to N with Step 3\obj\Debug\netcoreapp2.1\03. Numbers from 1 to N with Step 3.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\03. Numbers from 1 to N with Step 3\obj\Debug\netcoreapp2.1\03. Numbers from 1 to N with Step 3.dll
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\03. Numbers from 1 to N with Step 3\obj\Debug\netcoreapp2.1\03. Numbers from 1 to N with Step 3.pdb

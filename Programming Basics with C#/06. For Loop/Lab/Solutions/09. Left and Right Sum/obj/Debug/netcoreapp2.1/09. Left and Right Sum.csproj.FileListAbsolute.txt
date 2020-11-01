@@ -1,0 +1,11 @@
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\09. Left and Right Sum\bin\Debug\netcoreapp2.1\09. Left and Right Sum.deps.json
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\09. Left and Right Sum\bin\Debug\netcoreapp2.1\09. Left and Right Sum.runtimeconfig.json
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\09. Left and Right Sum\bin\Debug\netcoreapp2.1\09. Left and Right Sum.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\09. Left and Right Sum\bin\Debug\netcoreapp2.1\09. Left and Right Sum.dll
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\09. Left and Right Sum\bin\Debug\netcoreapp2.1\09. Left and Right Sum.pdb
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\09. Left and Right Sum\obj\Debug\netcoreapp2.1\09. Left and Right Sum.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\09. Left and Right Sum\obj\Debug\netcoreapp2.1\09. Left and Right Sum.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\09. Left and Right Sum\obj\Debug\netcoreapp2.1\09. Left and Right Sum.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\09. Left and Right Sum\obj\Debug\netcoreapp2.1\09. Left and Right Sum.dll
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\09. Left and Right Sum\obj\Debug\netcoreapp2.1\09. Left and Right Sum.pdb
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\09. Left and Right Sum\obj\Debug\netcoreapp2.1\09. Left and Right Sum.csprojAssemblyReference.cache

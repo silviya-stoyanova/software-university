@@ -1,0 +1,11 @@
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\bin\Debug\netcoreapp2.1\02. Numbers N1.deps.json
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\bin\Debug\netcoreapp2.1\02. Numbers N1.runtimeconfig.json
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\bin\Debug\netcoreapp2.1\02. Numbers N1.runtimeconfig.dev.json
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\bin\Debug\netcoreapp2.1\02. Numbers N1.dll
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\bin\Debug\netcoreapp2.1\02. Numbers N1.pdb
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\obj\Debug\netcoreapp2.1\02. Numbers N1.csprojAssemblyReference.cache
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\obj\Debug\netcoreapp2.1\02. Numbers N1.csproj.CoreCompileInputs.cache
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\obj\Debug\netcoreapp2.1\02. Numbers N1.AssemblyInfoInputs.cache
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\obj\Debug\netcoreapp2.1\02. Numbers N1.AssemblyInfo.cs
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\obj\Debug\netcoreapp2.1\02. Numbers N1.dll
+D:\software-university\Programming Basics with C#\06. For Loop\Lab\Solutions\02. Numbers N1\obj\Debug\netcoreapp2.1\02. Numbers N1.pdb
