@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\software-university\\Programming Basics with C#\\06. For Loop\\Lab\\Solutions\\07. Sum Numbers\\07. Sum Numbers.csproj",
+      "projectUniqueName": "D:\\software-university\\Programming Basics with C#\\05. For Loop\\Lab\\Solutions\\07. Sum Numbers\\07. Sum Numbers.csproj",
       "projectName": "07. Sum Numbers",
-      "projectPath": "D:\\software-university\\Programming Basics with C#\\06. For Loop\\Lab\\Solutions\\07. Sum Numbers\\07. Sum Numbers.csproj",
+      "projectPath": "D:\\software-university\\Programming Basics with C#\\05. For Loop\\Lab\\Solutions\\07. Sum Numbers\\07. Sum Numbers.csproj",
       "packagesPath": "C:\\Users\\SILVIq\\.nuget\\packages\\",
-      "outputPath": "D:\\software-university\\Programming Basics with C#\\06. For Loop\\Lab\\Solutions\\07. Sum Numbers\\obj\\",
+      "outputPath": "D:\\software-university\\Programming Basics with C#\\05. For Loop\\Lab\\Solutions\\07. Sum Numbers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

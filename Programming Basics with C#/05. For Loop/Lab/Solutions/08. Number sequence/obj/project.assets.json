@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\software-university\\Programming Basics with C#\\06. For Loop\\Lab\\Solutions\\08. Number sequence\\08. Number sequence.csproj",
+      "projectUniqueName": "D:\\software-university\\Programming Basics with C#\\05. For Loop\\Lab\\Solutions\\08. Number sequence\\08. Number sequence.csproj",
       "projectName": "08. Number sequence",
-      "projectPath": "D:\\software-university\\Programming Basics with C#\\06. For Loop\\Lab\\Solutions\\08. Number sequence\\08. Number sequence.csproj",
+      "projectPath": "D:\\software-university\\Programming Basics with C#\\05. For Loop\\Lab\\Solutions\\08. Number sequence\\08. Number sequence.csproj",
       "packagesPath": "C:\\Users\\SILVIq\\.nuget\\packages\\",
-      "outputPath": "D:\\software-university\\Programming Basics with C#\\06. For Loop\\Lab\\Solutions\\08. Number sequence\\obj\\",
+      "outputPath": "D:\\software-university\\Programming Basics with C#\\05. For Loop\\Lab\\Solutions\\08. Number sequence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

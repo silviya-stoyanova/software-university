@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Convert Meters to Kilometers", "..\01. Convert Meters to Kilometers\01. Convert Meters to Kilometers.csproj", "{76D0E705-1266-444F-837F-0F58B6B80D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Pounds to Dollars", "02. Pounds to Dollars\02. Pounds to Dollars.csproj", "{A0E27A75-1CDA-4A8E-9660-353DD7944B18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Exact Sum of Real Numbers", "03. Exact Sum of Real Numbers\03. Exact Sum of Real Numbers.csproj", "{FF2A3433-0C6E-403B-941B-401EF3E67C05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76D0E705-1266-444F-837F-0F58B6B80D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D0E705-1266-444F-837F-0F58B6B80D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D0E705-1266-444F-837F-0F58B6B80D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D0E705-1266-444F-837F-0F58B6B80D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E27A75-1CDA-4A8E-9660-353DD7944B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E27A75-1CDA-4A8E-9660-353DD7944B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E27A75-1CDA-4A8E-9660-353DD7944B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E27A75-1CDA-4A8E-9660-353DD7944B18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF2A3433-0C6E-403B-941B-401EF3E67C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF2A3433-0C6E-403B-941B-401EF3E67C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF2A3433-0C6E-403B-941B-401EF3E67C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF2A3433-0C6E-403B-941B-401EF3E67C05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AD648C7-E732-4E15-87F3-E4F8D005D9EF}
+	EndGlobalSection
+EndGlobal

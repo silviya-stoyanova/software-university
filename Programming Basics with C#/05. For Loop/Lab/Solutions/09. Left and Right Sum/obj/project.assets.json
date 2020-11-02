@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\software-university\\Programming Basics with C#\\06. For Loop\\Lab\\Solutions\\09. Left and Right Sum\\09. Left and Right Sum.csproj",
+      "projectUniqueName": "D:\\software-university\\Programming Basics with C#\\05. For Loop\\Lab\\Solutions\\09. Left and Right Sum\\09. Left and Right Sum.csproj",
       "projectName": "09. Left and Right Sum",
-      "projectPath": "D:\\software-university\\Programming Basics with C#\\06. For Loop\\Lab\\Solutions\\09. Left and Right Sum\\09. Left and Right Sum.csproj",
+      "projectPath": "D:\\software-university\\Programming Basics with C#\\05. For Loop\\Lab\\Solutions\\09. Left and Right Sum\\09. Left and Right Sum.csproj",
       "packagesPath": "C:\\Users\\SILVIq\\.nuget\\packages\\",
-      "outputPath": "D:\\software-university\\Programming Basics with C#\\06. For Loop\\Lab\\Solutions\\09. Left and Right Sum\\obj\\",
+      "outputPath": "D:\\software-university\\Programming Basics with C#\\05. For Loop\\Lab\\Solutions\\09. Left and Right Sum\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

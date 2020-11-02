@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\software-university\\Programming Basics with C#\\06. For Loop\\Lab\\Solutions\\02. Numbers form N to 1\\02. Numbers form N to 1.csproj",
+      "projectUniqueName": "D:\\software-university\\Programming Basics with C#\\05. For Loop\\Lab\\Solutions\\02. Numbers form N to 1\\02. Numbers form N to 1.csproj",
       "projectName": "02. Numbers form N to 1",
-      "projectPath": "D:\\software-university\\Programming Basics with C#\\06. For Loop\\Lab\\Solutions\\02. Numbers form N to 1\\02. Numbers form N to 1.csproj",
+      "projectPath": "D:\\software-university\\Programming Basics with C#\\05. For Loop\\Lab\\Solutions\\02. Numbers form N to 1\\02. Numbers form N to 1.csproj",
       "packagesPath": "C:\\Users\\SILVIq\\.nuget\\packages\\",
-      "outputPath": "D:\\software-university\\Programming Basics with C#\\06. For Loop\\Lab\\Solutions\\02. Numbers form N to 1\\obj\\",
+      "outputPath": "D:\\software-university\\Programming Basics with C#\\05. For Loop\\Lab\\Solutions\\02. Numbers form N to 1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

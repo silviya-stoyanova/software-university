@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\software-university\\Programming Basics with C#\\06. For Loop\\Lab\\Solutions\\10. Odd Even Sum\\10. Odd Even Sum.csproj",
+      "projectUniqueName": "D:\\software-university\\Programming Basics with C#\\05. For Loop\\Lab\\Solutions\\10. Odd Even Sum\\10. Odd Even Sum.csproj",
       "projectName": "10. Odd Even Sum",
-      "projectPath": "D:\\software-university\\Programming Basics with C#\\06. For Loop\\Lab\\Solutions\\10. Odd Even Sum\\10. Odd Even Sum.csproj",
+      "projectPath": "D:\\software-university\\Programming Basics with C#\\05. For Loop\\Lab\\Solutions\\10. Odd Even Sum\\10. Odd Even Sum.csproj",
       "packagesPath": "C:\\Users\\SILVIq\\.nuget\\packages\\",
-      "outputPath": "D:\\software-university\\Programming Basics with C#\\06. For Loop\\Lab\\Solutions\\10. Odd Even Sum\\obj\\",
+      "outputPath": "D:\\software-university\\Programming Basics with C#\\05. For Loop\\Lab\\Solutions\\10. Odd Even Sum\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
